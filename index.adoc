@@ -367,7 +367,7 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 | `11 Mar. 2025` +
 | Building, understanding, and using pangenomes at Human Genome Organization (HUGO) 2025 workshop (Durban, South Africa)
 | *Instructor*, created new material
-| icon:book[] {uri-hugo2025-website}[Website]
+| icon:book[] {uri-hugo2025-summary}[Website]
 
 | `4 Dec. 2024` +
 | Methods in genomic variant calling training course at {human-technopole} (Milan, Italy)
