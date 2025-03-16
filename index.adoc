@@ -102,6 +102,8 @@
 :uri-ismb2020-poster-c: https://andreaguarracino.github.io/posters/ISMB2020_ComprehensiveAnalysisSARSCoV2_Poster_AndreaGuarracino.pdf
 
 // Courses
+:uri-graph-summit-2025: https://github.com/dbcls/graphsummit/wiki/2025
+:uri-graph-summit-2025-invitation: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20250227_GS_InvitationLetterDBCLS_Andrea Guarracino.pdf
 :uri-lorentz-center: https://www.lorentzcenter.nl/
 :uri-lorentz-center-epistasis-poster: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/LorentzEpistatisWorkshop_AndreaGuarracino.pdf
 :uri-enago-academy-academic-writing: https://www.enago.com/academy/how-to-overcome-challenges-in-academic-writing/
@@ -981,7 +983,7 @@ icon:file-pdf-o[] {uri-ismb2020-poster-c}[Poster]
 
 |===
 
-== icon:pencil[] Courses
+== icon:pencil[] Training
 
 [cols="1,1,2,1",options="header"]
 |===
@@ -990,6 +992,13 @@ icon:file-pdf-o[] {uri-ismb2020-poster-c}[Poster]
 ^| icon:globe[] Place
 ^| icon:book[] Title
 ^| icon:link[] Links
+
+| `09 Mar. 2025 to 15 Mar. 2025` +
+| Okuma Private Beach & Resort, Okinawa, Japan
+| Graph Summit 2025
+| icon:book[] {uri-graph-summit-2025}[Website] +
+icon:file-pdf-o[] {uri-graph-summit-2025-invitation}[Invitation]
+
 
 | `17 July 2023 to 21 July 2023` +
 | {uri-lorentz-center}[Lorentz Center, Leiden, Netherlands]
