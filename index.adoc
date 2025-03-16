@@ -103,7 +103,7 @@
 
 // Courses
 :uri-graph-summit-2025: https://github.com/dbcls/graphsummit/wiki/2025
-:uri-graph-summit-2025-invitation: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20250227_GS_InvitationLetterDBCLS_Andrea Guarracino.pdf
+:uri-graph-summit-2025-invitation: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20250227_GS_InvitationLetterDBCLS_AndreaGuarracino.pdf
 :uri-lorentz-center: https://www.lorentzcenter.nl/
 :uri-lorentz-center-epistasis-poster: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/LorentzEpistatisWorkshop_AndreaGuarracino.pdf
 :uri-enago-academy-academic-writing: https://www.enago.com/academy/how-to-overcome-challenges-in-academic-writing/
