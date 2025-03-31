@@ -11,6 +11,7 @@
 :uri-university-la-sapienza: https://www.uniroma1.it/
 :uri-afinsubria: https://www.afinsubria.org/
 :uri-stowers-institute: https://www.stowers.org/
+:uri-ceitec: https://www.ceitec.eu/
 :uri-utrecht-bioinformatics-center: https://ubc.uu.nl/
 :uri-unipavia-phdsgb: http://phdsgb.unipv.eu/site/en/home.html
 :uri-university-salerno: https://web.unisa.it/en/home
@@ -128,6 +129,7 @@
 :uri-seminar-invitation-la-sapienza-2024: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20240226_InvitationLetterLaSapienza_AndreaGuarracino.pdf
 :uri-seminar-brochure-la-sapienza-2024: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20240226_SeminarBrochureLaSapienza_AndreaGuarracino.pdf
 :uri-seminar-brochure-stowers-institute-2024: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20240924_SeminarBrochureStowersInstitute_AndreaGuarracino.pdf
+:uri-seminar-ceitec-2025: https://www.ceitec.eu/bioit-seminar-pangenome-variant-calling/a5206
 
 // Universities, institutes
 :human-technopole: {uri-human-technopole}[Human Technopole]
@@ -143,6 +145,7 @@
 :university-semm: {uri-semm}[SEMM European School of Molecular Medicine]
 :university-la-sapienza: {uri-university-la-sapienza}[University of Rome La Sapienza]
 :stowers-institute: {uri-stowers-institute}[Stowers Institute]
+:ceitec: {uri-ceitec}[Ceitec]
 
 // Publications
 :uri-pietrosanto-adinolfi-guarracino2021-rig: https://doi.org/10.1093/nargab/lqab007
@@ -554,6 +557,11 @@ icon:file-pdf-o[] {uri-github-smbe24-certificate}[Certificate]
 ^| icon:globe[] Place
 ^| icon:book[] Description
 ^| icon:link[] Links
+
+| `19 Mar. 2025` +
+| {ceitec}
+| Seminar on "Pangenome variant calling"
+| icon:book[] {uri-seminar-ceitec-2025}[Link]
 
 | `24 Sept. 2024` +
 | {stowers-institute}
