@@ -194,6 +194,7 @@
 :uri-heumos2024: https://doi.org/10.1093/bioinformatics/btae609
 :uri-li2024: https://doi.org/10.48550/arxiv.2409.00876
 :uri-dongahn2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11312596/
+:uri-dongahn2025: https://pubmed.ncbi.nlm.nih.gov/40205052/
 :uri-potapova2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11451732/
 :uri-darnell2024-preprint: http://www.ncbi.nlm.nih.gov/pmc/articles/pmc11507946/
 :uri-delima2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11463614/
@@ -604,11 +605,6 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | *Genetic, epigenetic, and pangenome analyses, figures, paper writing*
 | icon:spinner[] {uri-delima2024-preprint}[Preprint]
 
-| bioRxiv, _Accepted_
-| Complete sequencing of ape genomes
-| Pangenome alignment/Divergence
-| icon:spinner[] {uri-dongahn2024-preprint}[Preprint]
-
 | bioRxiv, _Submitted_
 | Comparative population pangenomes reveal unexpected complexity and fitness effects of structural variants
 | Pangenome analysis and visualization
@@ -634,10 +630,15 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | Support for the analyses and figures, Figure 2, paper writing
 | icon:spinner[] {uri-volpe2023-preprint}[Preprint]
 
+| Nature, 2025
+| Complete sequencing of ape genomes
+| Pangenome alignment/Divergence
+| icon:book[] {uri-dongahn2025}[Paper]
+
 | iScience, 2025
 | Genetic modulation of protein expression in rat brain
 | Pangenome graph building and analyses, paper editing
-| icon:spinner[] {uri-li2025}[Preprint]
+| icon:book[] {uri-li2025}[Paper]
 
 | iScience, 2025
 | Pangenome reconstruction in rats enhances genotype-phenotype mapping and novel variant discovery
