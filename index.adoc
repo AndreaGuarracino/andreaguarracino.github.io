@@ -202,6 +202,7 @@
 :uri-kronenberg2024-preprint: https://doi.org/10.1101/2024.10.02.616333
 :uri-cheng2025: https://doi.org/10.1038/s41586-024-08476-9
 :uri-edwards2025-preprint: https://doi.org/10.1101/2025.02.11.637762 
+:uri-dorubsky2025: https://pubmed.ncbi.nlm.nih.gov/40269156/
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -612,15 +613,15 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | *Genetic, epigenetic, and pangenome analyses, figures, paper writing*
 | icon:spinner[] {uri-delima2024-preprint}[Preprint]
 
-| bioRxiv, _Submitted_
-| Comparative population pangenomes reveal unexpected complexity and fitness effects of structural variants
-| Pangenome analysis and visualization
-| icon:spinner[] {uri-edwards2025-preprint}[Preprint]
-
-| bioRxiv, _Submitted_
+| bioRxiv, _Accepted_
 | The Platinum Pedigree: A long-read benchmark for genetic variants
 | Pangenome analysis
 | icon:spinner[] {uri-kronenberg2024-preprint}[Preprint]
+
+| bioRxiv, _In review_
+| Comparative population pangenomes reveal unexpected complexity and fitness effects of structural variants
+| Pangenome analysis and visualization
+| icon:spinner[] {uri-edwards2025-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | Creating a biomedical knowledge base by addressing GPT inaccurate responses and benchmarking context
@@ -636,6 +637,11 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | The complete diploid reference genome of RPE-1 identifies human phased epigenetic landscapes
 | Support for the analyses and figures, Figure 2, paper writing
 | icon:spinner[] {uri-volpe2023-preprint}[Preprint]
+
+| Nature, 2025
+| Human de novo mutation rates from a four-generation pedigree reference
+| Meiotic recombination analysis
+| icon:book[] {uri-dorubsky2025}[Paper]
 
 | Nature, 2025
 | Complete sequencing of ape genomes
