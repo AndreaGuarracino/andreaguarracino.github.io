@@ -280,15 +280,10 @@ icon:comment[] https://matrix.to/#/@andreaguarracino:matrix.org[Chat]
 
 == icon:black-tie[] Current position
 
-icon:calendar[] `1 Nov. 2022 to Present` +
-icon:university[] *Postdoctoral Scholar at the {uthsc}* (Memphis, USA). +
-icon:group[] Reporting to Prof. Erik Garrison.
+icon:calendar[] `1 May 2025 to Present` +
+icon:university[] *Assistant Professor at the {uthsc}* (Memphis, USA). +
 
-* Heterologous recombination in the human pangenome (icon:book[] {uri-guarracino2023}[Guarracino _et al._, 2023, Nature])
-* Formation and propagation of human Robertsonian chromosomes (icon:spinner[] {uri-delima2024-preprint}[de Lima*, Guarracino*, Koren _et al._, 2024, bioRxiv])
-* Nanopore sequencing for studying recombination in yeast
-* Development of a new whole-genome aligner (icon:github[] {uri-github-wfmash}[wfmash])
-* Pangenome graph sorting and layout (icon:book[] {uri-heumos2024}[Heumos*, Guarracino* _et al._, 2024, Bioinformatics])
+* Pangenomes everywhere
 
 == icon:search[] Collaborations
 
@@ -312,6 +307,16 @@ icon:group[] Reporting to Dr. Ilio Vitale.
 * Exploiting karyotypic aberrations and chromosomal instability in cancer stem cells for precision immunotherapy
 
 == icon:suitcase[] Employment
+
+icon:calendar[] `1 Nov. 2022 to 30 Apr. 2025` +
+icon:university[] *Postdoctoral Scholar at the {uthsc}* (Memphis, USA). +
+icon:group[] Reporting to Prof. Erik Garrison.
+
+* Heterologous recombination in the human pangenome (icon:book[] {uri-guarracino2023}[Guarracino _et al._, 2023, Nature])
+* Formation and propagation of human Robertsonian chromosomes (icon:spinner[] {uri-delima2024-preprint}[de Lima*, Guarracino*, Koren _et al._, 2024, bioRxiv])
+* Nanopore sequencing for studying recombination in yeast
+* Development of a new whole-genome aligner (icon:github[] {uri-github-wfmash}[wfmash])
+* Pangenome graph sorting and layout (icon:book[] {uri-heumos2024}[Heumos*, Guarracino* _et al._, 2024, Bioinformatics])
 
 icon:calendar[] `1 Nov. 2021 to 31 Oct. 2022` (1 year) +
 icon:university[] *Postdoctoral Associate at the {human-technopole}* (Milan, Italy). +
