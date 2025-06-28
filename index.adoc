@@ -380,7 +380,7 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:link[] Links
 
 | `11 May 2025 to 15 May 2025` +
-| MemPanG24 Pangenomics, {uri-uthsc}[University of Tennessee Health and Science Center] (Memphis, USA)
+| MemPanG25 Pangenomics, {uri-uthsc}[University of Tennessee Health and Science Center] (Memphis, USA)
 | *Organizer*, *instructor* and *chair*, created new material and tutorials, held lessons, assisted the participants, configured the virtual machines
 | icon:github[] {uri-github-mempang25-website}[Website] +
 icon:github[] {uri-github-mempang25-material}[Material]
