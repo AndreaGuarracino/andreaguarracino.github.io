@@ -225,6 +225,8 @@
 :uri-github-mempang24-website: https://pangenome.github.io/MemPanG24/
 :uri-github-mempang24-material: https://github.com/pangenome/MemPanG24/
 :uri-github-mempang24-certificate: https://github.com/AndreaGuarracino/cv/blob/main/certificates/MemPanG24_CertificateOrganizerInstructorChair_AndreaGuarracino.pdf
+:uri-github-mempang25-website: https://pangenome.github.io/MemPanG25/
+:uri-github-mempang25-material: https://github.com/pangenome/MemPanG25/
 :uri-github-romepang24-website: https://elixir-iib-training.github.io/site/2024-06-19-Pangenomics
 :uri-github-romepang24-certificate: https://github.com/AndreaGuarracino/cv/blob/main/certificates/RomePanG24_ElixirCourse_CertificateOrganizerInstructor_AndreaGuarracino.pdf
 :uri-github-afipang24-website: https://www.afinsubria.org/2024/07/09/computational-pangenomics/
@@ -376,6 +378,12 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:book[] Course
 ^| icon:pencil[] Role
 ^| icon:link[] Links
+
+| `11 May 2025 to 15 May 2025` +
+| MemPanG24 Pangenomics, {uri-uthsc}[University of Tennessee Health and Science Center] (Memphis, USA)
+| *Organizer*, *instructor* and *chair*, created new material and tutorials, held lessons, assisted the participants, configured the virtual machines
+| icon:github[] {uri-github-mempang25-website}[Website] +
+icon:github[] {uri-github-mempang25-material}[Material]
 
 | `7 Apr. 2025 to 9 Apr. 2025` +
 | Computational Pangenomics, {uri-physalia-courses}[Physalia-courses] (Online)
