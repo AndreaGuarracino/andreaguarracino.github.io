@@ -203,6 +203,7 @@
 :uri-cheng2025: https://doi.org/10.1038/s41586-024-08476-9
 :uri-edwards2025-preprint: https://doi.org/10.1101/2025.02.11.637762 
 :uri-dorubsky2025: https://pubmed.ncbi.nlm.nih.gov/40269156/
+:uri-lia2025-preprint: https://doi.org/10.1101/2025.06.25.661508
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -629,6 +630,11 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | The Platinum Pedigree: A long-read benchmark for genetic variants
 | Pangenome analysis
 | icon:spinner[] {uri-kronenberg2024-preprint}[Preprint]
+
+| bioRxiv, _Submitted_
+| The reference-free pangenome of Arabidopsis thaliana
+| Pangenomic support
+| icon:spinner[] {uri-lia2025-preprint}[Preprint]
 
 | bioRxiv, _In review_
 | Comparative population pangenomes reveal unexpected complexity and fitness effects of structural variants
