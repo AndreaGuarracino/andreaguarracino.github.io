@@ -387,7 +387,7 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 | `12 July 2025 to 14 July 2025` +
 | PhDSchool Hackathon on pangenomics, {uri-forgenom-II}[FORGENOM II] and {uri-pangaia}[PANGAIA], (Ischia, Italy)
 | *Instructor*, created new material, held lessons, assisted the participants
-| icon:github[] {uri-github-forgenom_summerschool2025-website}[Website] +
+| icon:github[] {uri-forgenom_summerschool2025-website}[Website] +
 icon:github[] {uri-github-forgenom_summerschool2025-material}[Material]
 
 | `11 May 2025 to 15 May 2025` +
