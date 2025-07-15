@@ -242,6 +242,10 @@
 :uri-github-covid19-research: https://github.com/vaguiarpulido/covid19-research.git
 :uri-github-rig: https://github.com/helmercitterich-lab/RIG
 :uri-github-tutor-certificate: https://github.com/AndreaGuarracino/cv/blob/main/other/AttestatoTutoratoBioinformatica.DigitalSign.AndreaGuarracino.pdf
+:uri-forgenom-II: https://www.forgenom.com/
+:uri-pangaia: https://www.pangenome.eu/
+:uri-forgenom_summerschool2025-website: https://algolab.github.io/forgenom_summerschool2025/
+:uri-github-forgenom_summerschool2025-material: https://github.com/pangenome/forgenom_summerschool2025
 
 = *Andrea Guarracino*
 :favicon: favicon.ico
@@ -379,6 +383,12 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:book[] Course
 ^| icon:pencil[] Role
 ^| icon:link[] Links
+
+| `12 July 2025 to 14 July 2025` +
+| PhDSchool Hackathon on pangenomics, {uri-forgenom-II}[FORGENOM II] and {uri-pangaia}[PANGAIA], (Ischia, Italy)
+| *Instructor*, created new material, held lessons, assisted the participants
+| icon:github[] {uri-github-forgenom_summerschool2025-website}[Website] +
+icon:github[] {uri-github-forgenom_summerschool2025-material}[Material]
 
 | `11 May 2025 to 15 May 2025` +
 | MemPanG25 Pangenomics, {uri-uthsc}[University of Tennessee Health and Science Center] (Memphis, USA)
