@@ -182,6 +182,7 @@
 :uri-cochetel2023-preprint: https://doi.org/10.1101/2023.06.27.545624
 :uri-cochetel2023: https://doi.org/10.1186/s13059-023-03133-2
 :uri-volpe2023-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10760208/
+:uri-volpe2025: https://pmc.ncbi.nlm.nih.gov/articles/PMC12432231/
 :uri-bolognini2024-preprint: https://doi.org/10.1101/2024.02.07.579378
 :uri-bolognini2024: https://doi.org/10.1038/s41586-024-07911-1
 :uri-li2024-preprint: https://doi.org/10.1101/2024.02.17.580840
@@ -653,10 +654,10 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | Nanopore reads analysis
 | icon:spinner[] {uri-potapova2024-preprint}[Preprint]
 
-| bioRxiv, _Submitted_
-| The complete diploid reference genome of RPE-1 identifies human phased epigenetic landscapes
+| 2025, Nature Communications
+| The reference genome of the human diploid cell line RPE-1
 | Support for the analyses and figures, Figure 2, paper writing
-| icon:spinner[] {uri-volpe2023-preprint}[Preprint]
+| icon:book[] {uri-volpe2025}[Paper]
 
 | Open Research Africa, 2025
 | Creating a biomedical knowledge base by addressing GPT inaccurate responses and benchmarking context
