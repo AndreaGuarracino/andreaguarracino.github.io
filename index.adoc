@@ -601,7 +601,7 @@ icon:file-pdf-o[] {uri-github-smbe24-certificate}[Certificate]
 | `23 Sept. 2025 to 26 Sept. 2025` +
 | {uri-sigu-ring14-2025}[SIGU 2025]
 | Invited speaker on "A pangenome view on acrocentric chromosomes"
-| icon:book[] {uri-sigu-ring14-2025-program}[Program]
+| icon:file-pdf-o[] {uri-sigu-ring14-2025-program}[Program]
 
 | `19 Mar. 2025` +
 | {ceitec}
