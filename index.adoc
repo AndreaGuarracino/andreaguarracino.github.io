@@ -546,14 +546,14 @@ icon:file-pdf-o[] {uri-github-smbe24-certificate}[Certificate]
 | Pangenome-based pipelines for unbiased ancient DNA analysis
 | -
 
-| `2 Oct. 2024 to Present.` +
-| Master’s degree in Bioinformatics, {university-tor-vergata} (Rome, Italy)
-| Benchmarking Analytical Pipelines for Single-Cell Long-Read Sequencing in Colon Cancer
-| -
-
 | `1 Oct. 2023 to Present` +
 | PhD program in Systems Medicine, Computational Biology curricula, {university-semm} (Italy)
 | Dissecting the intracellular response to replication and mitotic stress in colorectal cancer for the design of novel effective (immuno)therapies
+| -
+
+| `2 Oct. 2024 to 22 July 2025` +
+| Master’s degree in Bioinformatics, {university-tor-vergata} (Rome, Italy)
+| Benchmarking Analytical Pipelines for Single-Cell Long-Read Sequencing in Colon Cancer
 | -
 
 | `2 Sept. 2021 to 20 Apr. 2022` +
