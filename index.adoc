@@ -201,6 +201,7 @@
 :uri-dongahn2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11312596/
 :uri-dongahn2025: https://pubmed.ncbi.nlm.nih.gov/40205052/
 :uri-potapova2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11451732/
+:uri-potapova2025: https://pubmed.ncbi.nlm.nih.gov/41043432/
 :uri-darnell2024-preprint: http://www.ncbi.nlm.nih.gov/pmc/articles/pmc11507946/
 :uri-darnell2025: https://doi.org/10.12688/openresafrica.15854.1
 :uri-delima2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11463614/
@@ -659,10 +660,10 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | Pangenome analysis and visualization
 | icon:spinner[] {uri-edwards2025-preprint}[Preprint]
 
-| bioRxiv, _Accepted_
+| Cell Genomics, 2025
 | Epigenetic control and inheritance of rDNA arrays
 | Nanopore reads analysis
-| icon:spinner[] {uri-potapova2024-preprint}[Preprint]
+| icon:spbookinner[] {uri-potapova2025}[Paper]
 
 | *Nature, 2025*
 | *The formation and propagation of human Robertsonian chromosomes*
