@@ -255,6 +255,9 @@
 :uri-pangaia: https://www.pangenome.eu/
 :uri-forgenom_summerschool2025-website: https://algolab.github.io/forgenom_summerschool2025/
 :uri-github-forgenom_summerschool2025-material: https://github.com/pangenome/forgenom_summerschool2025
+:uri-github-hackprc25-website: https://pangenome.github.io/HackPRC25/
+:uri-github-hackprc25-material: https://github.com/pangenome/hackprc25
+
 
 = *Andrea Guarracino*
 :favicon: favicon.ico
@@ -392,6 +395,12 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:book[] Course
 ^| icon:pencil[] Role
 ^| icon:link[] Links
+
+| `6 Oct. 2025 to 9 Oct. 2025` +
+| HPRC 2025 Annual Meeting + Hackathon, (Memphis, USA)
+| *Planning committee member* and *instructor*, created new material, held lessons, assisted the participants
+| icon:github[] {uri-github-hackprc25-website}[Website] +
+icon:github[] {uri-github-hackprc25-material}[Material]
 
 | `12 July 2025 to 14 July 2025` +
 | PhDSchool Hackathon on pangenomics, {uri-forgenom-II}[FORGENOM II] and {uri-pangaia}[PANGAIA], (Ischia, Italy)
