@@ -304,7 +304,7 @@ icon:comment[] https://matrix.to/#/@andreaguarracino:matrix.org[Chat]
 icon:calendar[] `1 May 2025 to Present` +
 icon:university[] *Assistant Professor at the {uthsc}* (Memphis, USA). +
 
-* Pangenomes everywhere
+* Implicit pangenome graphs
 
 == icon:search[] Collaborations
 
