@@ -214,6 +214,7 @@
 :uri-dorubsky2025: https://pubmed.ncbi.nlm.nih.gov/40269156/
 :uri-lia2025-preprint: https://doi.org/10.1101/2025.06.25.661508
 :uri-hansen2025-preprint: https://doi.org/10.1101/2025.09.21.677443
+:uri-corda2025: https://doi.org/10.1038/s41467-025-66155-3
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -668,15 +669,20 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | Pangenomic support
 | icon:spinner[] {uri-lia2025-preprint}[Preprint]
 
-| bioRxiv, _Accepted_
+| Science, _Accepted_
 | Comparative population pangenomes reveal unexpected complexity and fitness effects of structural variants
 | Pangenome analysis and visualization
 | icon:spinner[] {uri-edwards2025-preprint}[Preprint]
 
+| Nature Communications, 2025
+| Cell line-matched reference enables high-precision functional genomics
+| Support for the analyses
+| icon:book[] {uri-corda2025}[Paper]
+
 | Cell Genomics, 2025
 | Epigenetic control and inheritance of rDNA arrays
 | Nanopore reads analysis
-| icon:spbookinner[] {uri-potapova2025}[Paper]
+| icon:book[] {uri-potapova2025}[Paper]
 
 | *Nature, 2025*
 | *The formation and propagation of human Robertsonian chromosomes*
