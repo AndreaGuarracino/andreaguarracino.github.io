@@ -135,6 +135,7 @@
 :uri-sigu-ring14-2025: https://sigu.net/proposte-temi-per-lorganizzazione-del-xxviii-congresso-nazionale-sigu-rimini-23-25-settembre-2025/
 :uri-sigu-ring14-2025-program: https://github.com/AndreaGuarracino/cv/blob/main/other/20250926_RingChromosome14_Program_AndreaGuarracino.pdf
 :uri-sigu: https://sigu.net/
+:uri-hprc2025-qa-video: https://www.youtube.com/watch?v=bJ7wkbwd5oU
 
 // Universities, institutes
 :human-technopole: {uri-human-technopole}[Human Technopole]
@@ -260,7 +261,7 @@
 :uri-github-hackprc25-website: https://pangenome.github.io/HackPRC25/
 :uri-github-hackprc25-material: https://github.com/pangenome/hackprc25
 :uri-github-hprc25-committee: https://github.com/AndreaGuarracino/cv/blob/main/other/HRPC25_AnnualMeetingPlanningCommittee_AndreaGuarracino.pdf
-
+:uri-github-embo2026-pangenomics-website: https://meetings.embo.org/event/26-pangenomics
 
 = *Andrea Guarracino*
 :favicon: favicon.ico
@@ -398,6 +399,11 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:book[] Course
 ^| icon:pencil[] Role
 ^| icon:link[] Links
+
+// | `7 June 2026 to 13 June 2026` +
+// | EMBO Practical Course Pangenomics, (Campania, Italy)
+// | *Organizer*, *instructor*, and *speaker*, created new material, held lessons, assisted the participants
+// | icon:github[] {uri-github-embo2026-pangenomics-website}[Website]
 
 | `6 Oct. 2025 to 9 Oct. 2025` +
 | HPRC 2025 Annual Meeting + Hackathon, (Memphis, USA)
@@ -1125,7 +1131,8 @@ icon:link[] {uri-best-practices-RNA-seq-repository}[Repository]
 | `20 Oct. 2020 to Present` +
 | {uri-hprc}[Human Pangenome Reference Consortium]
 | Associate Member of the *Human Pangenome Reference Consortium*
-| icon:link[] {uri-hprc-collection}[Collection]
+| icon:link[] {uri-hprc-collection}[Collection] +
+icon:link[] {uri-hprc2025-qa-video}[Q&A video]
 
 | `09 July 2021` +
 | {university-tor-vergata}
