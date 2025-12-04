@@ -216,6 +216,7 @@
 :uri-lia2025-preprint: https://doi.org/10.1101/2025.06.25.661508
 :uri-hansen2025-preprint: https://doi.org/10.1101/2025.09.21.677443
 :uri-corda2025: https://doi.org/10.1038/s41467-025-66155-3
+:uri-mohab2025: https://doi.org/10.1016/j.xgen.2025.101074
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -679,6 +680,11 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | Comparative population pangenomes reveal unexpected complexity and fitness effects of structural variants
 | Pangenome analysis and visualization
 | icon:spinner[] {uri-edwards2025-preprint}[Preprint]
+
+| Cell Genomics, 2025
+| High-quality mouse reference genomes reveal the structural complexity of the murine protein-coding landscape
+| Pangenomic analysis
+| icon:book[] {uri-mohab2025}[Paper]
 
 | Nature Communications, 2025
 | Cell line-matched reference enables high-precision functional genomics
