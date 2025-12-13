@@ -159,7 +159,7 @@
 :uri-guarracino2022-odgi: https://doi.org/10.1093/bioinformatics/btac308
 :uri-musella2022: https://doi.org/10.1038/s41590-022-01290-3
 :uri-pepe2022: https://doi.org/10.1016/j.ncrna.2022.01.003
-:uri-guarracino2021-brio-webserver: http://brio.bio.uniroma2.it/
+:uri-guarracino2021-brio-webserver: http://brio.bio.uniroma2.it
 :uri-guarracino2021-brio-graphical-abstract: https://andreaguarracino.github.io/abstracts/BRIO_GraphicalAbstract_AndreaGuarracino.pdf
 :uri-ferrarini2021: https://doi.org/10.1038/s42003-021-02095-0
 :uri-mattiello2021: https://doi.org/10.3390/cancers13081957
@@ -180,39 +180,40 @@
 :uri-yang2022: https://doi.org/10.3389/fgene.2023.1225248
 :uri-garrison2023-preprint: https://doi.org/10.1101/2023.04.05.535718
 :uri-garrison2024: https://doi.org/10.1038/s41592-024-02430-3
-:uri-villani2023-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10802574/
+:uri-villani2023-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10802574
 :uri-villani2025: https://doi.org/10.1016/j.isci.2025.111835
 :uri-heumos2023-preprint: https://doi.org/10.1101/2023.09.22.558964
 :uri-heumos2024: https://doi.org/10.1093/bioinformatics/btae363
 :uri-cochetel2023-preprint: https://doi.org/10.1101/2023.06.27.545624
 :uri-cochetel2023: https://doi.org/10.1186/s13059-023-03133-2
-:uri-volpe2023-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10760208/
-:uri-volpe2025: https://pmc.ncbi.nlm.nih.gov/articles/PMC12432231/
+:uri-volpe2023-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10760208
+:uri-volpe2025: https://pmc.ncbi.nlm.nih.gov/articles/PMC12432231
 :uri-bolognini2024-preprint: https://doi.org/10.1101/2024.02.07.579378
 :uri-bolognini2024: https://doi.org/10.1038/s41586-024-07911-1
 :uri-li2024-preprint: https://doi.org/10.1101/2024.02.17.580840
 :uri-li2025: https://doi.org/10.1016/j.isci.2025.112079
 :uri-gustafson2024-preprint: https://doi.org/10.1101/2024.03.05.24303792
 :uri-gustafson2024: http://doi.org/10.1101/gr.279273.124
-:uri-koren2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10962732/
-:uri-koren2024: https://pubmed.ncbi.nlm.nih.gov/39505490/
-:uri-buque2024: https://pubmed.ncbi.nlm.nih.gov/39661487/
+:uri-koren2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10962732
+:uri-koren2024: https://pubmed.ncbi.nlm.nih.gov/39505490
+:uri-buque2024: https://pubmed.ncbi.nlm.nih.gov/39661487
 :uri-heumos2024-preprint: https://doi.org/10.1101/2024.05.13.593871
 :uri-heumos2024: https://doi.org/10.1093/bioinformatics/btae609
 :uri-li2024: https://doi.org/10.48550/arxiv.2409.00876
-:uri-dongahn2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11312596/
-:uri-dongahn2025: https://pubmed.ncbi.nlm.nih.gov/40205052/
-:uri-potapova2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11451732/
-:uri-potapova2025: https://pubmed.ncbi.nlm.nih.gov/41043432/
-:uri-darnell2024-preprint: http://www.ncbi.nlm.nih.gov/pmc/articles/pmc11507946/
+:uri-dongahn2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11312596
+:uri-dongahn2025: https://pubmed.ncbi.nlm.nih.gov/40205052
+:uri-potapova2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11451732
+:uri-potapova2025: https://pubmed.ncbi.nlm.nih.gov/41043432
+:uri-darnell2024-preprint: http://www.ncbi.nlm.nih.gov/pmc/articles/pmc11507946
 :uri-darnell2025: https://doi.org/10.12688/openresafrica.15854.1
-:uri-delima2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11463614/
+:uri-delima2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11463614
 :uri-delima2025: https://pubmed.ncbi.nlm.nih.gov/40993387/
 :uri-kronenberg2024-preprint: https://doi.org/10.1101/2024.10.02.616333
 :uri-kronenberg2025: https://doi.org/10.1038/s41592-025-02750-y
 :uri-cheng2025: https://doi.org/10.1038/s41586-024-08476-9
-:uri-edwards2025-preprint: https://doi.org/10.1101/2025.02.11.637762 
-:uri-dorubsky2025: https://pubmed.ncbi.nlm.nih.gov/40269156/
+:uri-edwards2025-preprint: https://doi.org/10.1101/2025.02.11.637762
+:uri-edwards2025: https://doi.org/10.1126/science.adw1931
+:uri-dorubsky2025: https://pubmed.ncbi.nlm.nih.gov/40269156
 :uri-lia2025-preprint: https://doi.org/10.1101/2025.06.25.661508
 :uri-hansen2025-preprint: https://doi.org/10.1101/2025.09.21.677443
 :uri-corda2025: https://doi.org/10.1038/s41467-025-66155-3
@@ -676,10 +677,10 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 | Pangenomic support
 | icon:spinner[] {uri-lia2025-preprint}[Preprint]
 
-| Science, _Accepted_
-| Comparative population pangenomes reveal unexpected complexity and fitness effects of structural variants
+| Science, 2025
+| Multispecies pangenomes reveal a pervasive influence of population size on structural variation
 | Pangenome analysis and visualization
-| icon:spinner[] {uri-edwards2025-preprint}[Preprint]
+| icon:book[] {uri-edwards2025}[Paper]
 
 | Cell Genomics, 2025
 | High-quality mouse reference genomes reveal the structural complexity of the murine protein-coding landscape
