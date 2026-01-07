@@ -311,7 +311,7 @@ icon:comment[] https://matrix.to/#/@andreaguarracino:matrix.org[Chat]
 icon:calendar[] `5 Jan. 2026 to Present` +
 icon:university[] *Assistant Professor at the {tgen}* (Phoenix, USA).
 
-* Implicit pangenome graphs
+* Cancer pangenomics
 
 == icon:search[] Collaborations
 
