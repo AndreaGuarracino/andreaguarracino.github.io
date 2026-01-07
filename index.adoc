@@ -7,6 +7,7 @@
 :uri-google-scholar: https://scholar.google.com/citations?user=zABbjIoAAAAJ
 :uri-human-technopole: https://humantechnopole.it/en/
 :uri-uthsc: https://www.uthsc.edu/
+:uri-tgen: https://www.tgen.org/
 :uri-university-tor-vergata: http://web.uniroma2.it/
 :uri-university-la-sapienza: https://www.uniroma1.it/
 :uri-afinsubria: https://www.afinsubria.org/
@@ -140,6 +141,7 @@
 // Universities, institutes
 :human-technopole: {uri-human-technopole}[Human Technopole]
 :uthsc: {uri-uthsc}[University of Tennessee Health and Science Center]
+:tgen: {uri-tgen}[Translational Genomics Research Institute]
 :university-tor-vergata: {uri-university-tor-vergata}[University of Rome Tor Vergata]
 :utrecht-bioinformatics-center: {uri-utrecht-bioinformatics-center}[Utrecht Bioinformatics Center]
 :unipavia-phdsgb: {uri-unipavia-phdsgb}[University of Pavia]
@@ -269,7 +271,7 @@
 = *Andrea Guarracino*
 :favicon: favicon.ico
 :table-stripes: even
-Andrea Guarracino Ph.D. <aguarra1@uthsc.edu>
+Andrea Guarracino Ph.D. <aguarracino@tgen.org>
 //:figure-caption!: // To turn off figure caption labels and numbers
 ifdef::backend-html5[]
 :toc-title: CV content
@@ -306,8 +308,8 @@ icon:comment[] https://matrix.to/#/@andreaguarracino:matrix.org[Chat]
 
 == icon:black-tie[] Current position
 
-icon:calendar[] `1 May 2025 to Present` +
-icon:university[] *Assistant Professor at the {uthsc}* (Memphis, USA). +
+icon:calendar[] `5 Jan. 2026 to Present` +
+icon:university[] *Assistant Professor at the {tgen}* (Phoenix, USA).
 
 * Implicit pangenome graphs
 
@@ -333,6 +335,11 @@ icon:group[] Reporting to Dr. Ilio Vitale.
 * Exploiting karyotypic aberrations and chromosomal instability in cancer stem cells for precision immunotherapy
 
 == icon:suitcase[] Employment
+
+icon:calendar[] `1 May 2025 to 30 Dec. 2025` +
+icon:university[] *Assistant Professor at the {uthsc}* (Memphis, USA).
+
+* Implicit pangenome graphs
 
 icon:calendar[] `1 Nov. 2022 to 30 Apr. 2025` +
 icon:university[] *Postdoctoral Scholar at the {uthsc}* (Memphis, USA). +
