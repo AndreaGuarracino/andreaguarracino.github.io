@@ -5,6 +5,7 @@
 :uri-github: https://github.com/AndreaGuarracino
 :uri-linkedin: https://www.linkedin.com/in/andreaguarracino
 :uri-google-scholar: https://scholar.google.com/citations?user=zABbjIoAAAAJ
+:uri-lab: https://guarracinolab.github.io/
 :uri-human-technopole: https://humantechnopole.it/en/
 :uri-uthsc: https://www.uthsc.edu/
 :uri-tgen: https://www.tgen.org/
@@ -287,6 +288,7 @@ endif::[]
 image::images/Andrea_Guarracino_2022.jpg[AndreaGuarracinoPhoto, 200]
 
 Computer engineer working on pangenomics.
+{uri-lab}[Lab website:] {uri-lab}[image:https://guarracinolab.github.io/images/GUARRACINOxLAB.png[GUARRACINOxLAB, 200]]
 
 [.float-group]
 --
