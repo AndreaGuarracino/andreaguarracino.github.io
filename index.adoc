@@ -224,6 +224,7 @@
 :uri-solar2025-preprint: https://doi.org/10.64898/2025.12.22.696095
 :uri-corda2025: https://doi.org/10.1038/s41467-025-66155-3
 :uri-mohab2025: https://doi.org/10.1016/j.xgen.2025.101074
+:uri-bolognini2025-preprint: https://doi.org/10.64898/2026.02.05.704023
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -683,6 +684,11 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 ^| icon:book[] Title
 ^| icon:pencil[] Contribution
 ^| icon:link[] Links
+
+| bioRxiv, _Submitted_
+| Population-scalable genotyping from low-coverage sequencing data using pangenome graphs
+| Software development, evaluations, manuscript writing.
+| icon:spinner[] {uri-bolognini2025-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | Origin and evolution of acrocentric chromosomes in human and great apes
