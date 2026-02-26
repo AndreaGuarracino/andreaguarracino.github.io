@@ -225,6 +225,7 @@
 :uri-corda2025: https://doi.org/10.1038/s41467-025-66155-3
 :uri-mohab2025: https://doi.org/10.1016/j.xgen.2025.101074
 :uri-bolognini2025-preprint: https://doi.org/10.64898/2026.02.05.704023
+:uri-kaushan2026-preprint: https://doi.org/10.64898/2026.02.16.706236
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -684,6 +685,11 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 ^| icon:book[] Title
 ^| icon:pencil[] Contribution
 ^| icon:link[] Links
+
+| bioRxiv, _Submitted_
+| Adaptive Tracepoints for Pangenome Alignment Compression
+| Project conception and guidance, software development, manuscript writing, experiments.
+| icon:spinner[] {uri-kaushan2026-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | Population-scalable genotyping from low-coverage sequencing data using pangenome graphs
