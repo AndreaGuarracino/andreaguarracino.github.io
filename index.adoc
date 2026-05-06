@@ -226,6 +226,7 @@
 :uri-mohab2025: https://doi.org/10.1016/j.xgen.2025.101074
 :uri-bolognini2025-preprint: https://doi.org/10.64898/2026.02.05.704023
 :uri-kaushan2026-preprint: https://doi.org/10.64898/2026.02.16.706236
+:uri-wagner2026-preprint: https://doi.org/10.64898/2026.05.01.722316
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -690,6 +691,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 ^| icon:book[] Title
 ^| icon:pencil[] Contribution
 ^| icon:link[] Links
+
+| bioRxiv, _Submitted_
+| A complete human pancreatic cancer genome
+| MHC analysis, contig partitioning, manuscript editing
+| icon:spinner[] {uri-wagner2026-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | ***Adaptive Tracepoints for Pangenome Alignment Compression*
