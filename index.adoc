@@ -251,6 +251,8 @@
 :uri-github-mempang24-certificate: https://github.com/AndreaGuarracino/cv/blob/main/certificates/MemPanG24_CertificateOrganizerInstructorChair_AndreaGuarracino.pdf
 :uri-github-mempang25-website: https://pangenome.github.io/MemPanG25/
 :uri-github-mempang25-material: https://github.com/pangenome/MemPanG25/
+:uri-github-mempang26-website: https://pangenome.github.io/MemPanG26/
+:uri-github-mempang26-material: https://github.com/pangenome/MemPanG26/
 :uri-github-romepang24-website: https://elixir-iib-training.github.io/site/2024-06-19-Pangenomics
 :uri-github-romepang24-certificate: https://github.com/AndreaGuarracino/cv/blob/main/certificates/RomePanG24_ElixirCourse_CertificateOrganizerInstructor_AndreaGuarracino.pdf
 :uri-github-afipang24-website: https://www.afinsubria.org/2024/07/09/computational-pangenomics/
@@ -421,6 +423,12 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 // | EMBO Practical Course Pangenomics, (Campania, Italy)
 // | *Organizer*, *instructor*, and *speaker*, created new material, held lessons, assisted the participants
 // | icon:github[] {uri-github-embo2026-pangenomics-website}[Website]
+
+| `11 May 2026 to 15 May 2026` +
+| MemPanG26 Pangenomics, Epicenter HQ (Memphis, USA)
+| *Organizer*, *instructor* and *speaker*, created new material and tutorials, held lessons, assisted the participants, configured the virtual machines
+| icon:github[] {uri-github-mempang26-website}[Website] +
+icon:github[] {uri-github-mempang26-material}[Material]
 
 | `13 Apr. 2026 to 16 Apr. 2026` +
 | Computational Pangenomics, {uri-physalia-courses}[Physalia-courses] (Online)
