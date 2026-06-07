@@ -227,6 +227,7 @@
 :uri-bolognini2025-preprint: https://doi.org/10.64898/2026.02.05.704023
 :uri-kaushan2026-preprint: https://doi.org/10.64898/2026.02.16.706236
 :uri-wagner2026-preprint: https://doi.org/10.64898/2026.05.01.722316
+:uri-hallast2026-preprint: https://doi.org/10.64898/2026.06.03.729890
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -699,6 +700,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 ^| icon:book[] Title
 ^| icon:pencil[] Contribution
 ^| icon:link[] Links
+
+| bioRxiv, _Submitted_
+| Population-scale Y chromosome assemblies reveal recurrent remodeling within constrained architectures
+| Pangenome graph construction
+| icon:spinner[] {uri-hallast2026-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | A complete human pancreatic cancer genome
