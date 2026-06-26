@@ -228,6 +228,7 @@
 :uri-kaushan2026-preprint: https://doi.org/10.64898/2026.02.16.706236
 :uri-wagner2026-preprint: https://doi.org/10.64898/2026.05.01.722316
 :uri-hallast2026-preprint: https://doi.org/10.64898/2026.06.03.729890
+:uri-formenti2026-preprint: https://doi.org/10.64898/2026.06.24.732306
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -700,6 +701,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 ^| icon:book[] Title
 ^| icon:pencil[] Contribution
 ^| icon:link[] Links
+
+| bioRxiv, _Submitted_
+| The Vertebrate Genomes Project Phase I: A global reference genome resource
+| Pangenome alignment analysis
+| icon:spinner[] {uri-formenti2026-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | Population-scale Y chromosome assemblies reveal recurrent remodeling within constrained architectures
