@@ -139,6 +139,7 @@
 :uri-sigu-ring14-2025: https://sigu.net/proposte-temi-per-lorganizzazione-del-xxviii-congresso-nazionale-sigu-rimini-23-25-settembre-2025/
 :uri-sigu-ring14-2025-program: https://github.com/AndreaGuarracino/cv/blob/main/other/20250926_RingChromosome14_Program_AndreaGuarracino.pdf
 :uri-seminar-brochure-santanna-2026: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260619_SeminarBrochureSantAnnaPisa_AndreaGuarracino.pdf
+:uri-seminar-brochure-icdg-2026: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260527_SeminarBrochureICDGBucharest_AndreaGuarracino.png
 :uri-sigu: https://sigu.net/
 :uri-hprc2025-qa-video: https://www.youtube.com/watch?v=bJ7wkbwd5oU
 
@@ -160,6 +161,8 @@
 :ceitec: {uri-ceitec}[Ceitec]
 :uri-scuola-superiore-santanna: https://www.santannapisa.it/en/institute/plant-sciences
 :scuola-superiore-santanna: {uri-scuola-superiore-santanna}[Scuola Superiore Sant'Anna]
+:uri-icdg: https://genomica.gov.ro
+:icdg: {uri-icdg}[Institute for Research and Development in Genomics]
 
 // Publications
 :uri-pietrosanto-adinolfi-guarracino2021-rig: https://doi.org/10.1093/nargab/lqab007
@@ -658,6 +661,11 @@ icon:file-pdf-o[] {uri-github-smbe24-symposia}[Symposia]
 | {scuola-superiore-santanna} (Pisa, Italy)
 | Seminar on "Do we still need pangenome graphs?"
 | icon:file-pdf-o[] {uri-seminar-brochure-santanna-2026}[Brochure]
+
+| `27 May 2026` +
+| {icdg} (Online, Bucharest, Romania)
+| Seminar on "Do we still need pangenome graphs?" (ICDG Grand Rounds)
+| icon:file-image-o[] {uri-seminar-brochure-icdg-2026}[Brochure]
 
 | `9 Jan. 2026 to 14 Jan. 2026` +
 | {uri-pag33-2026}[Plant & Animal Genome Conference 2026 (PAG 33)]
