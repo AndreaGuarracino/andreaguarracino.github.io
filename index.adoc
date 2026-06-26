@@ -1057,6 +1057,11 @@ icon:university[] *Previous software development for pangenomics*.
 
 | `23 July 2023 to 27 July 2023` +
 | {uri-sbme23}[Society for Molecular Biology & Evolution 2023 (SMBE23)]
+| Recombination between heterologous human acrocentric chromosomes
+| icon:file-pdf-o[] {uri-github-smbe23-poster-acrocentric}[Poster]
+
+| `23 July 2023 to 27 July 2023` +
+| {uri-sbme23}[Society for Molecular Biology & Evolution 2023 (SMBE23)]
 | Building a Pangenome Graph for the HXB/BXH Recombinant Inbred Rat Strain Family: Enhanced Discovery of Complex Variants and Validation with Sanger Sequencing
 | icon:file-pdf-o[] {uri-github-smbe23-poster-rat}[Poster] +
 icon:file-pdf-o[] {uri-github-smbe23-certificate}[Certificate]
