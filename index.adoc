@@ -421,10 +421,10 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:pencil[] Role
 ^| icon:link[] Links
 
-// | `7 June 2026 to 13 June 2026` +
-// | EMBO Practical Course Pangenomics, (Campania, Italy)
-// | *Organizer*, *instructor*, and *speaker*, created new material, held lessons, assisted the participants
-// | icon:github[] {uri-github-embo2026-pangenomics-website}[Website]
+| `7 June 2026 to 13 June 2026` +
+| EMBO Practical Course Pangenomics, (Torre del Greco, Naples, Italy)
+| *Organizer*, *instructor*, and *speaker*, created new material, held lessons, assisted the participants
+| icon:github[] {uri-github-embo2026-pangenomics-website}[Website]
 
 | `11 May 2026 to 15 May 2026` +
 | MemPanG26 Pangenomics, Epicenter HQ (Memphis, USA)
