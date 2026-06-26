@@ -1107,7 +1107,7 @@ icon:file-pdf-o[] {uri-eacr2021-poster}[Poster]
 
 | `11 May 2021 to 14 May 2021` +
 | {uri-thebiologyofgenomes2021}[The Biology of Genomes 2021]
-| Identification of RNA sequence and structure motifs for protein interaction
+| The PanGenome Graph Builder
 | icon:file-pdf-o[] {uri-thebiologyofgenomes2021-abstract}[Abstract] +
 icon:file-pdf-o[] {uri-thebiologyofgenomes2021-poster}[Poster]
 
