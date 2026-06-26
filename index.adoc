@@ -235,6 +235,8 @@
 :uri-wagner2026-preprint: https://doi.org/10.64898/2026.05.01.722316
 :uri-hallast2026-preprint: https://doi.org/10.64898/2026.06.03.729890
 :uri-formenti2026-preprint: https://doi.org/10.64898/2026.06.24.732306
+:uri-rocha2026-preprint: https://doi.org/10.64898/2026.06.06.730619
+:uri-ranallobenavidez2026-preprint: https://doi.org/10.64898/2026.05.15.725544
 
 // Repositories
 :uri-github-brio: https://github.com/helmercitterich-lab/BRIO
@@ -724,9 +726,19 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | icon:spinner[] {uri-formenti2026-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
+| A Pan-pangenome illuminates complex structural variation and selection in humans, chimpanzees, and bonobos
+| De novo genome assembly
+| icon:spinner[] {uri-rocha2026-preprint}[Preprint]
+
+| bioRxiv, _Submitted_
 | Population-scale Y chromosome assemblies reveal recurrent remodeling within constrained architectures
 | Pangenome graph construction
 | icon:spinner[] {uri-hallast2026-preprint}[Preprint]
+
+| bioRxiv, _Submitted_
+| KaryoScope: rapid, alignment-free sequence annotation for the pangenome era
+| Robertsonian translocation analysis
+| icon:spinner[] {uri-ranallobenavidez2026-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | A complete human pancreatic cancer genome
@@ -748,7 +760,7 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | Analysis and manuscript writing
 | icon:spinner[] {uri-solar2025-preprint}[Preprint]
 
-| bioRxiv, _Submitted_
+| Cell, _In press_
 | A complete diploid human genome benchmark for personalized genomics
 | Assembly generation and manuscript writing
 | icon:spinner[] {uri-hansen2025-preprint}[Preprint]
