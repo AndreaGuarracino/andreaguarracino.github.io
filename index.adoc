@@ -700,7 +700,7 @@ icon:file-pdf-o[] {uri-seminar-brochure-la-sapienza-2024}[Brochure]
 icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 
 | `13 Sept. 2023` +
-| {university-salerno}
+| {university-tor-vergata}
 | Seminar on "Heterologous recombination in the human pangenome"
 | icon:file-pdf-o[] {uri-seminar-invitation-tor-vergata-2023}[Invitation]
 
