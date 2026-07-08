@@ -64,6 +64,7 @@
 :uri-github-iggsy2022-presentation: https://andreaguarracino.github.io/presentations/IGGSy2022_ChromosomeCommunitiesHumanPangenome_Presentation_AndreaGuarracino.pdf
 :uri-github-iggsy2022-grant-certificate: https://andreaguarracino.github.io/other/IGGSy2022_StudentTravelGrant_AndreaGuarracino.jpg
 :uri-iggsy: https://iggsy.org/
+:uri-iggsy2026-program: https://iggsy.org/program
 :uri-3dbioinfo2021: https://elixir-europe.org/events/3d-bioinfo-2021-annual-meeting
 :uri-3dbioinfo2021-abstract: https://andreaguarracino.github.io/abstracts/3DBioinfo2021_RNASecondaryStructMotifsInvolvedInTheInteractionWithRBPs_Abstract_AndreaGuarracino.pdf
 :uri-biodiversitygenomics2021: https://enrolment.engage-powered.com/hinxtonhall/go/register.aspx
@@ -1043,6 +1044,11 @@ icon:university[] *Previous software development for pangenomics*.
 ^| icon:globe[] Conference
 ^| icon:book[] Title
 ^| icon:link[] Links
+
+| `5 July 2026 to 9 July 2026` +
+| {uri-iggsy}[International Genome Graph Symposium 2026 (IGGSy26)]
+| Pervasive inter-chromosomal recombination shapes human subtelomeric architecture (oral presentation)
+| icon:link[] {uri-iggsy2026-program}[Program]
 
 | `28 June 2026 to 2 July 2026` +
 | {uri-sbme26}[Society for Molecular Biology & Evolution 2026 (SMBE26)]
