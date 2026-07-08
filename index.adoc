@@ -37,6 +37,8 @@
 :uri-github-pag33-2026-invitation: https://andreaguarracino.github.io/certificates/PAG33_InvitationLetter_AndreaGuarracino.pdf
 :uri-bog24: https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=24
 :uri-github-bog24-poster-wfmash: https://andreaguarracino.github.io/posters/BoG24_AligningPangenomesWithHierarchicalWFA_Poster_AndreaGuarracino.pdf
+:uri-sbme26: https://smbe2026.org/
+:uri-github-smbe26-certificate: https://andreaguarracino.github.io/certificates/SMBE26_CertificateOralPresentation_AndreaGuarracino.pdf
 :uri-sbme24: https://smbe2024.org/
 :uri-sbme24-call-for-abstracts: https://andreaguarracino.github.io/images/SMBE24_CallForAbstracts_AndreaGuarracino.png
 :uri-github-smbe24-certificate: https://andreaguarracino.github.io/certificates/SMBE24_CertificateOfAttendance_AndreaGuarracino.pdf
@@ -1041,6 +1043,11 @@ icon:university[] *Previous software development for pangenomics*.
 ^| icon:globe[] Conference
 ^| icon:book[] Title
 ^| icon:link[] Links
+
+| `28 June 2026 to 2 July 2026` +
+| {uri-sbme26}[Society for Molecular Biology & Evolution 2026 (SMBE26)]
+| Pervasive inter-chromosomal recombination shapes human subtelomeric architecture (oral presentation)
+| icon:file-pdf-o[] {uri-github-smbe26-certificate}[Certificate]
 
 | `2 Oct. 2024 to 5 Oct. 2024` +
 | {uri-ctc-rg-2024}[Complex Trait Community and the Rat Genomics 2024]
