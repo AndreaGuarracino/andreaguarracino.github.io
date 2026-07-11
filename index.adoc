@@ -288,6 +288,11 @@
 :uri-github-hackprc25-material: https://github.com/pangenome/hackprc25
 :uri-github-hprc25-committee: https://github.com/AndreaGuarracino/cv/blob/main/other/HRPC25_AnnualMeetingPlanningCommittee_AndreaGuarracino.pdf
 :uri-github-embo2026-pangenomics-website: https://meetings.embo.org/event/26-pangenomics
+:uri-nf-core-hackathon-2021: https://nf-co.re/events/2021/hackathon-march-2021
+:uri-github-nf-core-pangenome: https://github.com/nf-core/pangenome
+:uri-biohackathon-europe-2020: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/25
+:uri-covid19-bh20-2020: https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Pangenome
+:uri-highschool-info: https://andreaguarracino.github.io/other/200807-08CircAlun36_AndreaGuarracino.pdf
 
 = *Andrea Guarracino*
 :favicon: favicon.ico
@@ -1217,10 +1222,26 @@ icon:file-pdf-o[] {uri-graph-summit-2025-invitation}[Invitation]
 | A multidisciplinary approach to epistasis detection
 | icon:file-pdf-o[] {uri-lorentz-center-epistasis-poster}[Poster]
 
+| `22 Mar. 2021 to 24 Mar. 2021` +
+| {uri-nf-core-hackathon-2021}[nf-core hackathon, Virtual]
+| nf-core/pangenome pipeline development
+| icon:link[] {uri-nf-core-hackathon-2021}[Link] +
+icon:github[] {uri-github-nf-core-pangenome}[nf-core/pangenome]
+
+| `9 Nov. 2020 to 13 Nov. 2020` +
+| {uri-biohackathon-europe-2020}[BioHackathon Europe, Virtual]
+| Federated Interoperable Annotated Variation Graphs
+| icon:link[] {uri-biohackathon-europe-2020}[Link]
+
 | `08 July 2020` +
 | {uri-enago-academy-academic-writing}[Enago academy, Virtual]
 | Overcoming Challenges in Academic Writing: Tips for Writing Articles and Grant Applications
 | icon:file-pdf-o[] {uri-enago-academy-academic-writing-certificate}[Certificate]
+
+| `5 Apr. 2020 to 11 Apr. 2020` +
+| {uri-covid19-bh20-2020}[COVID-19-BH20 Biohackathon, Virtual]
+| Groups: Pangenome, Pangenome Browser, Machine Learning, Gene Expression, Public Sequence Resource
+| icon:link[] {uri-covid19-bh20-2020}[Link]
 
 | `21 Apr. 2018` +
 | English language certification
@@ -1268,3 +1289,47 @@ icon:link[] {uri-hprc2025-qa-video}[Q&A video]
 | icon:link[] {uri-lemonde-binaire-article}[Blog]
 
 |===
+
+== icon:trophy[] Achievements
+
+[cols="1,3,1",options="header"]
+|===
+
+^| icon:calendar[] Time
+^| icon:book[] Description
+^| icon:link[] Links
+
+| `2020`
+| Best Poster Prize on "Semantic Variation Graphs: Ontologies for Pangenome Graphs", ISMB
+| icon:link[] {uri-ismb2020-best-poster-prize}[Best Poster Prize]
+
+| `2016 to 2018`
+| Scholarships during the Master's degree in Bioinformatics, {university-tor-vergata} (Rome, Italy)
+| -
+
+| `2007 to 2010`
+| Scholarships during the Bachelor's degree in Computer Engineering, {university-salerno} (Salerno, Italy)
+| -
+
+| `2007`
+| 100/100 cum laude grade in the high school diploma, IIS Basilio Focaccia (Salerno, Italy)
+| icon:file-pdf-o[] {uri-highschool-info}[Info]
+
+| `2007`
+| Highest votes average (9.44/10) in all fifth-grade classes, IIS Basilio Focaccia (Salerno, Italy)
+| icon:file-pdf-o[] {uri-highschool-info}[Info]
+
+| `2006`
+| Highest votes average (9.33/10) in all fourth-grade classes, IIS Basilio Focaccia (Salerno, Italy)
+| -
+
+| `2005`
+| Highest votes average (9.22/10) in all third-grade classes, IIS Basilio Focaccia (Salerno, Italy)
+| -
+
+|===
+
+== icon:laptop[] Computer skills
+
+* *Programming*: C/C++, Rust, Java, Python, R, HTML/CSS, JavaScript, Bash, LaTeX, Assembly
+* *O.S.*: Linux, Windows
