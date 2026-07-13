@@ -237,6 +237,7 @@
 :uri-kaushan2026-preprint: https://doi.org/10.64898/2026.02.16.706236
 :uri-wagner2026-preprint: https://doi.org/10.64898/2026.05.01.722316
 :uri-hallast2026-preprint: https://doi.org/10.64898/2026.06.03.729890
+:uri-shih2026-panomap-preprint: https://doi.org/10.64898/2026.07.10.737796
 :uri-guarracino2026-subtelomeres-preprint: https://doi.org/10.64898/2026.07.10.737660
 :uri-formenti2026-preprint: https://doi.org/10.64898/2026.06.24.732306
 :uri-rocha2026-preprint: https://doi.org/10.64898/2026.06.06.730619
@@ -733,6 +734,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | **Concerted evolution and unorthodox recombination of human subtelomeres*
 | *Project conception, all analyses and figures, software development, paper writing*
 | icon:spinner[] {uri-guarracino2026-subtelomeres-preprint}[Preprint]
+
+| bioRxiv, _Submitted_
+| Panomap: Unbiased Nanopore Signal Mapping with Pangenome Variation Graphs
+| Pangenomic support, paper editing
+| icon:spinner[] {uri-shih2026-panomap-preprint}[Preprint]
 
 | bioRxiv, _Submitted_
 | The Vertebrate Genomes Project Phase I: A global reference genome resource
