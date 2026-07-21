@@ -239,10 +239,16 @@ endif::[]
 
 == icon:user[] Personal details
 
-image::images/Andrea_Guarracino_2022.jpg[AndreaGuarracinoPhoto, 200]
-
-Computer engineer working on pangenomics.
-{uri-lab}[Lab website:] {uri-lab}[image:https://guarracinolab.github.io/images/GUARRACINOxLAB.png[GUARRACINOxLAB, 200]]
+[subs="attributes"]
+++++
+<div class="personal-flex">
+<img class="personal-photo" src="images/Andrea_Guarracino_2022.jpg" alt="Andrea Guarracino" width="200">
+<div class="personal-text">
+<p>Computer engineer working on pangenomics.</p>
+<p class="lab"><a href="{uri-lab}">Lab website:</a> <a href="{uri-lab}"><img src="https://guarracinolab.github.io/images/GUARRACINOxLAB.png" alt="GUARRACINOxLAB" width="200"></a></p>
+</div>
+</div>
+++++
 
 [.float-group]
 --

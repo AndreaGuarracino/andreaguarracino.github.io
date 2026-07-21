@@ -18,4 +18,29 @@
     body {
         font-family: Ubuntu, sans-serif;
     }
+    /* Personal details: photo + text side-by-side when wide (text column fills the
+       photo height, lab link/logo pinned to the bottom), stacked when narrow */
+    .personal-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;       /* photo and text block vertically centered together */
+        justify-content: center;   /* whole cluster centered in the middle of the page */
+        gap: 2.5rem;               /* horizontal space between photo and text */
+        margin-bottom: 1.5em;
+    }
+    .personal-flex .personal-text {
+        flex: 0 1 auto;            /* size to content, do not stretch across the page */
+        display: flex;
+        flex-direction: column;
+        align-items: center;       /* center description + lab link/logo horizontally */
+        text-align: center;
+        gap: 1.25em;               /* modest space between description and lab link */
+    }
+    .personal-flex .personal-text p {
+        margin: 0;
+    }
+    .personal-flex img {
+        max-width: 100%;
+        height: auto;
+    }
 </style>

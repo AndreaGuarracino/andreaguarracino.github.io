@@ -456,6 +456,31 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     body {
         font-family: Ubuntu, sans-serif;
     }
+    /* Personal details: photo + text side-by-side when wide (text column fills the
+       photo height, lab link/logo pinned to the bottom), stacked when narrow */
+    .personal-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;       /* photo and text block vertically centered together */
+        justify-content: center;   /* whole cluster centered in the middle of the page */
+        gap: 2.5rem;               /* horizontal space between photo and text */
+        margin-bottom: 1.5em;
+    }
+    .personal-flex .personal-text {
+        flex: 0 1 auto;            /* size to content, do not stretch across the page */
+        display: flex;
+        flex-direction: column;
+        align-items: center;       /* center description + lab link/logo horizontally */
+        text-align: center;
+        gap: 1.25em;               /* modest space between description and lab link */
+    }
+    .personal-flex .personal-text p {
+        margin: 0;
+    }
+    .personal-flex img {
+        max-width: 100%;
+        height: auto;
+    }
 </style>
 </head>
 <body class="article toc2 toc-left">
@@ -492,14 +517,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_personal_details"><span class="icon"><i class="fa fa-user"></i></span> Personal details</h2>
 <div class="sectionbody">
-<div class="imageblock">
-<div class="content">
-<img src="images/Andrea_Guarracino_2022.jpg" alt="AndreaGuarracinoPhoto" width="200">
+<div class="personal-flex">
+<img class="personal-photo" src="images/Andrea_Guarracino_2022.jpg" alt="Andrea Guarracino" width="200">
+<div class="personal-text">
+<p>Computer engineer working on pangenomics.</p>
+<p class="lab"><a href="https://guarracinolab.github.io/">Lab website:</a> <a href="https://guarracinolab.github.io/"><img src="https://guarracinolab.github.io/images/GUARRACINOxLAB.png" alt="GUARRACINOxLAB" width="200"></a></p>
 </div>
-</div>
-<div class="paragraph">
-<p>Computer engineer working on pangenomics.
-<a href="https://guarracinolab.github.io/">Lab website:</a> <a href="https://guarracinolab.github.io/"><span class="image"><img src="https://guarracinolab.github.io/images/GUARRACINOxLAB.png" alt="GUARRACINOxLAB" width="200"></span></a></p>
 </div>
 <div class="openblock float-group">
 <div class="content">
@@ -1920,7 +1943,7 @@ Gaetano Giordano.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-07-21 14:32:24 +0200
+Last updated 2026-07-21 15:13:16 +0200
 </div>
 </div>
 </body>
