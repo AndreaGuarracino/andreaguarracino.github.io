@@ -84,10 +84,10 @@
 :uri-thebiologyofgenomes2021: https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=21
 :uri-thebiologyofgenomes2021-abstract: https://andreaguarracino.github.io/abstracts/BoG2021_ThePangenomeGraphBuilder_Abstract_AndreaGuarracino.pdf
 :uri-thebiologyofgenomes2021-poster: https://andreaguarracino.github.io/posters/BoG2021_ThePanGenomeGraphBuilder_Poster_AndreaGuarracino.pdf
-:uri-bbcc2021: https://www.bbcc-meetings.it/program/
-:uri-bbcc2021-abstract: https://andreaguarracino.github.io/abstracts/BBCC2020_PopulationGenomicsAnalysesOnPangenomeGraph_ProgramAndAbstractBook.pdf
-:uri-bbcc2021-presentation: https://andreaguarracino.github.io/presentations/f1000research-326757.pdf
-:uri-bbcc2021-presentation-f1000research: https://f1000research.com/slides/9-1338
+:uri-bbcc2020: https://www.bbcc-meetings.it/program/
+:uri-bbcc2020-abstract: https://andreaguarracino.github.io/abstracts/BBCC2020_PopulationGenomicsAnalysesOnPangenomeGraph_ProgramAndAbstractBook.pdf
+:uri-bbcc2020-presentation: https://andreaguarracino.github.io/presentations/f1000research-326757.pdf
+:uri-bbcc2020-presentation-f1000research: https://f1000research.com/slides/9-1338
 :uri-vcbm2020: https://www.gcpr-vmv-vcbm-2020.uni-tuebingen.de/
 :uri-vcbm2020-abstract: https://andreaguarracino.github.io/abstracts/EG_VCMB_GraphLayoutByPath-GuidedStochasticGradientDescent_Abstract_AndreaGuarracino.pdf
 :uri-vcbm2020-poster: https://andreaguarracino.github.io/posters/EG_VCMB_GraphLayoutByPath-GuidedStochasticGradientDescent_Poster_Landscape_AndreaGuarracino.pdf
@@ -143,12 +143,11 @@
 :uri-sigu-ring14-2025-program: https://github.com/AndreaGuarracino/cv/blob/main/other/20250926_RingChromosome14_Program_AndreaGuarracino.pdf
 :uri-seminar-brochure-santanna-2026: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260619_SeminarBrochureSantAnnaPisa_AndreaGuarracino.pdf
 :uri-seminar-brochure-icdg-2026: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260527_SeminarBrochureICDGBucharest_AndreaGuarracino.png
-:uri-sigu: https://sigu.net/
 :uri-hprc2025-qa-video: https://www.youtube.com/watch?v=bJ7wkbwd5oU
 
 // Universities, institutes
 :human-technopole: {uri-human-technopole}[Human Technopole]
-:uthsc: {uri-uthsc}[University of Tennessee Health and Science Center]
+:uthsc: {uri-uthsc}[University of Tennessee Health Science Center]
 :tgen: {uri-tgen}[Translational Genomics Research Institute]
 :university-tor-vergata: {uri-university-tor-vergata}[University of Rome Tor Vergata]
 :utrecht-bioinformatics-center: {uri-utrecht-bioinformatics-center}[Utrecht Bioinformatics Center]
@@ -157,7 +156,7 @@
 :iigm: {uri-iigm}[Italian Institute for Genomic Medicine]
 :irccs: {uri-irccs}[Candiolo Cancer Institute]
 :princess-maxima-centrum: {uri-rincess-maxima-centrum}[Princess Máxima Center for Pediatric Oncology]
-:uri-semm: https://www.semm.it/curriculum/computational-biology
+:uri-semm: https://www.semm.it/phd
 :university-semm: {uri-semm}[SEMM European School of Molecular Medicine]
 :university-la-sapienza: {uri-university-la-sapienza}[University of Rome La Sapienza]
 :stowers-institute: {uri-stowers-institute}[Stowers Institute]
@@ -171,86 +170,18 @@
 :uri-pietrosanto-adinolfi-guarracino2021-rig: https://doi.org/10.1093/nargab/lqab007
 :uri-guarracino2021-brio: https://doi.org/10.1093/nar/gkab400
 :uri-guarracino2022-odgi: https://doi.org/10.1093/bioinformatics/btac308
-:uri-musella2022: https://doi.org/10.1038/s41590-022-01290-3
-:uri-pepe2022: https://doi.org/10.1016/j.ncrna.2022.01.003
-:uri-guarracino2021-brio-webserver: http://brio.bio.uniroma2.it
-:uri-guarracino2021-brio-graphical-abstract: https://andreaguarracino.github.io/abstracts/BRIO_GraphicalAbstract_AndreaGuarracino.pdf
-:uri-ferrarini2021: https://doi.org/10.1038/s42003-021-02095-0
-:uri-mattiello2021: https://doi.org/10.3390/cancers13081957
-:uri-novelli2021: https://doi.org/10.1038/s41419-021-03513-1
-:uri-manic2021: https://doi.org/10.1038/s41418-020-00733-4
-:uri-guarracino2022-acro-preprint: https://doi.org/10.1101/2022.08.15.504037
 :uri-guarracino2023: https://doi.org/10.1038/s41586-023-05976-y
-:uri-liao2022-preprint: https://doi.org/10.1101/2022.07.09.499321
-:uri-liao2023: https://doi.org/10.1038/s41586-023-05896-x
-:uri-jarvis2022-preprint: https://doi.org/10.1101/2022.03.06.483034
-:uri-jarvis2022: https://doi.org/10.1038/s41586-022-05325-5
-:uri-garrison2022-preprint: https://doi.org/10.1101/2022.02.14.480413
 :uri-garrison2022: https://doi.org/10.1093/bioinformatics/btac743
-:uri-marcosola2022-preprint: https://doi.org/10.1101/2022.04.14.488380
-:uri-marcosola2023: https://doi.org/10.1093/bioinformatics/btad074
-:uri-rhie2022-preprint: https://doi.org/10.1101/2022.12.01.518724
-:uri-rhie2023: https://www.nature.com/articles/s41586-023-06457-y
-:uri-yang2022: https://doi.org/10.3389/fgene.2023.1225248
-:uri-garrison2023-preprint: https://doi.org/10.1101/2023.04.05.535718
 :uri-garrison2024: https://doi.org/10.1038/s41592-024-02430-3
-:uri-villani2023-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10802574
-:uri-villani2025: https://doi.org/10.1016/j.isci.2025.111835
-:uri-heumos2023-preprint: https://doi.org/10.1101/2023.09.22.558964
 :uri-heumos2024: https://doi.org/10.1093/bioinformatics/btae363
-:uri-cochetel2023-preprint: https://doi.org/10.1101/2023.06.27.545624
-:uri-cochetel2023: https://doi.org/10.1186/s13059-023-03133-2
-:uri-volpe2023-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10760208
-:uri-volpe2025: https://pmc.ncbi.nlm.nih.gov/articles/PMC12432231
-:uri-bolognini2024-preprint: https://doi.org/10.1101/2024.02.07.579378
-:uri-bolognini2024: https://doi.org/10.1038/s41586-024-07911-1
-:uri-li2024-preprint: https://doi.org/10.1101/2024.02.17.580840
-:uri-li2025: https://doi.org/10.1016/j.isci.2025.112079
-:uri-gustafson2024-preprint: https://doi.org/10.1101/2024.03.05.24303792
-:uri-gustafson2024: http://doi.org/10.1101/gr.279273.124
-:uri-koren2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC10962732
-:uri-koren2024: https://pubmed.ncbi.nlm.nih.gov/39505490
-:uri-buque2024: https://pubmed.ncbi.nlm.nih.gov/39661487
-:uri-heumos2024-preprint: https://doi.org/10.1101/2024.05.13.593871
 :uri-heumos2024: https://doi.org/10.1093/bioinformatics/btae609
-:uri-li2024: https://doi.org/10.48550/arxiv.2409.00876
-:uri-dongahn2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11312596
-:uri-dongahn2025: https://pubmed.ncbi.nlm.nih.gov/40205052
-:uri-potapova2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11451732
-:uri-potapova2025: https://pubmed.ncbi.nlm.nih.gov/41043432
-:uri-darnell2024-preprint: http://www.ncbi.nlm.nih.gov/pmc/articles/pmc11507946
-:uri-darnell2025: https://doi.org/10.12688/openresafrica.15854.1
-:uri-delima2024-preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC11463614
 :uri-delima2025: https://pubmed.ncbi.nlm.nih.gov/40993387/
-:uri-kronenberg2024-preprint: https://doi.org/10.1101/2024.10.02.616333
-:uri-kronenberg2025: https://doi.org/10.1038/s41592-025-02750-y
-:uri-cheng2025: https://doi.org/10.1038/s41586-024-08476-9
-:uri-edwards2025-preprint: https://doi.org/10.1101/2025.02.11.637762
-:uri-edwards2025: https://doi.org/10.1126/science.adw1931
-:uri-dorubsky2025: https://pubmed.ncbi.nlm.nih.gov/40269156
-:uri-lia2025-preprint: https://doi.org/10.1101/2025.06.25.661508
-:uri-hansen2025-preprint: https://doi.org/10.1101/2025.09.21.677443
-:uri-solar2025-preprint: https://doi.org/10.64898/2025.12.22.696095
-:uri-corda2025: https://doi.org/10.1038/s41467-025-66155-3
-:uri-mohab2025: https://doi.org/10.1016/j.xgen.2025.101074
-:uri-bolognini2025-preprint: https://doi.org/10.64898/2026.02.05.704023
-:uri-kaushan2026-preprint: https://doi.org/10.64898/2026.02.16.706236
-:uri-wagner2026-preprint: https://doi.org/10.64898/2026.05.01.722316
-:uri-hallast2026-preprint: https://doi.org/10.64898/2026.06.03.729890
-:uri-shih2026-panomap-preprint: https://doi.org/10.64898/2026.07.10.737796
-:uri-guarracino2026-subtelomeres-preprint: https://doi.org/10.64898/2026.07.10.737660
-:uri-formenti2026-preprint: https://doi.org/10.64898/2026.06.24.732306
-:uri-rocha2026-preprint: https://doi.org/10.64898/2026.06.06.730619
-:uri-ranallobenavidez2026-preprint: https://doi.org/10.64898/2026.05.15.725544
 
 // Repositories
-:uri-github-brio: https://github.com/helmercitterich-lab/BRIO
 :uri-github-pggb: https://github.com/pangenome/pggb
 :uri-github-smoothxg: https://github.com/pangenome/smoothxg
 :uri-github-odgi: https://github.com/pangenome/odgi
 :uri-github-seqwish: https://github.com/ekg/seqwish
-:uri-github-pg-sgd-1D: https://github.com/pangenome/odgi/blob/master/src/algorithms/path_sgd.cpp
-:uri-github-pg-sgd-2D: https://github.com/pangenome/odgi/blob/master/src/algorithms/path_sgd_layout.cpp
 :uri-github-wfmash: https://github.com/waveygang/wfmash
 :uri-github-pubseq: https://github.com/pubseq/bh20-seq-resource
 :uri-github-pantograph: https://github.com/graph-genome/graph-genome.github.io
@@ -279,8 +210,6 @@
 :uri-github-unipavia-phdsgb-2024-flier: https://github.com/AndreaGuarracino/cv/blob/main/certificates/UniPaviaPhDCoursePangenome2024_Flier_Apr18-19_2024_final_AndreaGuarracino.pdf
 :uri-github-unipavia-phdsgb-2024-invitation-email: https://github.com/AndreaGuarracino/cv/blob/main/certificates/UniPaviaPhDCoursePangenome2024_InvitationMail_AndreaGuarracino.pdf
 :uri-github-esami-svolti: https://andreaguarracino.github.io/other/EsamiSvoltiLaureeDocentePerAnnoAccademico.pdf
-:uri-github-covid19-research: https://github.com/vaguiarpulido/covid19-research.git
-:uri-github-rig: https://github.com/helmercitterich-lab/RIG
 :uri-github-tutor-certificate: https://github.com/AndreaGuarracino/cv/blob/main/other/AttestatoTutoratoBioinformatica.DigitalSign.AndreaGuarracino.pdf
 :uri-forgenom-II: https://www.forgenom.com/
 :uri-pangaia: https://www.pangenome.eu/
@@ -386,7 +315,7 @@ icon:group[] Reporting to Prof. Nicole Soranzo and Prof. Erik Garrison.
 * Unbiased pangenome graphs (icon:book[] {uri-garrison2022}[Garrison and Guarracino, 2022, Bioinformatics]) (icon:github[] {uri-github-seqwish}[seqwish])
 * Optimized Dynamic Genome/Graph Implementation ({uri-guarracino2022-odgi}[Guarracino _et al._, 2022, Bioinformatics]) (icon:github[] {uri-github-odgi}[ODGI])
 
-icon:calendar[] `4 Mar. 2013 to 31 Oct. 2018` (5 years, 7 months, 28 days) +
+icon:calendar[] `4 Mar. 2013 to 31 Oct. 2018` (5 years, 7 months, 27 days) +
 icon:university[] *Computer engineer for multiplatform firmware/software development, {uri-gisa}[GISA]* (Salerno, Italy). +
 icon:group[] Reporting to Eng.
 Gaetano Giordano.
@@ -401,12 +330,12 @@ Gaetano Giordano.
 * Patent application on a universal system for services fruition (ITUA20165252, A1) ({uri-gisa-patent}[Patent])
 * Basic design of simple electrical circuits for controlling actuators and reading analog/digital signals
 
-icon:calendar[] `4 Oct. 2012 to 20 Jan. 2013` (3 months, 17 days) +
+icon:calendar[] `4 Oct. 2012 to 20 Jan. 2013` (3 months, 16 days) +
 icon:university[] *Salesman, L’Erborista S.A.S. di Sarno Adele & C* (Salerno, Italy).
 
 * Selling products, warehouse management and cleaning
 
-icon:calendar[] `1 Nov. 2010 to 3 Mar. 2013` (2 years, 4 months, 3 days) +
+icon:calendar[] `1 Nov. 2010 to 3 Mar. 2012` (1 year, 4 months, 2 days) +
 icon:university[] *Web Developer, Virtual* (Salerno, Italy).
 
 * Development of dynamic websites using Java Server Page, JavaScript, ASP.NET, PHP, MySQL
@@ -439,7 +368,7 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:pencil[] Role
 ^| icon:link[] Links
 
-| `7 June 2026 to 13 June 2026` +
+| `7 June 2026 to Present` +
 | EMBO Practical Course Pangenomics, (Torre del Greco, Naples, Italy)
 | *Organizer*, *instructor*, and *speaker*, created new material, held lessons, assisted the participants
 | icon:github[] {uri-github-embo2026-pangenomics-website}[Website]
@@ -469,7 +398,7 @@ icon:file-pdf-o[] {uri-github-hprc25-committee}[Planning committee]
 icon:github[] {uri-github-forgenom_summerschool2025-material}[Material]
 
 | `11 May 2025 to 15 May 2025` +
-| MemPanG25 Pangenomics, {uri-uthsc}[University of Tennessee Health and Science Center] (Memphis, USA)
+| MemPanG25 Pangenomics, {uri-uthsc}[University of Tennessee Health Science Center] (Memphis, USA)
 | *Organizer*, *instructor* and *chair*, created new material and tutorials, held lessons, assisted the participants, configured the virtual machines
 | icon:github[] {uri-github-mempang25-website}[Website] +
 icon:github[] {uri-github-mempang25-material}[Material]
@@ -480,7 +409,7 @@ icon:github[] {uri-github-mempang25-material}[Material]
 | icon:github[] {uri-github-physalia-courses-website}[Website]
 
 | `11 Mar. 2025` +
-| Building, understanding, and using pangenomes at Human Genome Organization (HUGO) 2025 workshop (Durban, South Africa)
+| Building, understanding, and using pangenomes at Human Genome Organization (HUGO) 2025 workshop (Durban, South Africa; remote)
 | *Instructor*, created new material
 | icon:file-pdf-o[] {uri-hugo2025-summary}[Summary]
 
@@ -509,7 +438,7 @@ icon:file-pdf-o[] {uri-github-afipang24-certificate}[Certificate]
 icon:file-pdf-o[] {uri-github-romepang24-certificate}[Certificate]
 
 | `18 May 2024 to 22 May 2024` +
-| MemPanG24 Pangenomics, {uri-uthsc}[University of Tennessee Health and Science Center] (Memphis, USA)
+| MemPanG24 Pangenomics, {uri-uthsc}[University of Tennessee Health Science Center] (Memphis, USA)
 | *Organizer*, *instructor* and *chair*, created new material and tutorials, held lessons, assisted the participants, configured the virtual machines
 | icon:github[] {uri-github-mempang24-website}[Website] +
 icon:github[] {uri-github-mempang24-material}[Material] +
@@ -521,10 +450,15 @@ icon:file-pdf-o[] {uri-github-mempang24-certificate}[Certificate]
 | icon:github[] {uri-github-datastructuresforbioinformatics}[Material]
 
 | `17 Apr. 2024` +
-| PhD Program in Genetics, Molecular and Cellular Biology, {unipavia-phdsgb} (Pavia, Italy)
+| PhD Program in Genetics, Molecular and Cellular Biology, {unipavia-phdsgb} (Pavia, Italy; Virtual)
 | *Teacher*, introducing pangenomics and PGGB (PanGenome Graph Builder)
 | icon:file-pdf-o[] {uri-github-unipavia-phdsgb-2024-flier}[Flier] +
 icon:file-pdf-o[] {uri-github-unipavia-phdsgb-2024-invitation-email}[Invitation]
+
+| `19 Feb. 2025` +
+| Advanced Bioinformatics: Data Mining and Data Integration for Life Science (1.5 CFU/ECTS), Master’s degree, {utrecht-bioinformatics-center} (Utrecht, Netherlands)
+| *Teacher*, introducing pangenomics and PGGB (PanGenome Graph Builder)
+| icon:github[] {uri-github-advanced-bioinformatics}[Website]
 
 | `9 Apr. 2024` +
 | Advanced Bioinformatics: Data Mining and Data Integration for Life Science (1.5 CFU/ECTS), Master’s degree, {utrecht-bioinformatics-center} (Utrecht, Netherlands)
@@ -544,7 +478,7 @@ icon:file-pdf-o[] {uri-h3bionet-2023-inv-letter}[Invitation]
 icon:file-pdf-o[] {uri-ctc-rg-2023-certificate}[Certificate]
 
 | `30 May 2023 to 2 June 2023` +
-| MemPanG23 Pangenomics, {uri-uthsc}[University of Tennessee Health and Science Center] (Memphis, USA)
+| MemPanG23 Pangenomics, {uri-uthsc}[University of Tennessee Health Science Center] (Memphis, USA)
 | *Organizer*, *instructor* and *chair*, created new material and tutorials, held lessons, assisted the participants, configured the virtual machines
 | icon:github[] {uri-github-mempang23-website}[Website] +
 icon:github[] {uri-github-mempang23-material}[Material] +
@@ -611,11 +545,6 @@ icon:file-pdf-o[] {uri-github-smbe24-symposia}[Symposia]
 ^| icon:university[] University
 ^| icon:book[] Thesis
 ^| icon:link[] Links
-
-| `2 Dec. 2024 to Present.` +
-| Master’s degree in Bioinformatics, {university-tor-vergata} (Rome, Italy)
-| Pangenome-based pipelines for unbiased ancient DNA analysis
-| -
 
 | `1 Oct. 2023 to Present` +
 | PhD program in Systems Medicine, Computational Biology curricula, {university-semm} (Italy)
@@ -684,7 +613,7 @@ icon:file-pdf-o[] {uri-github-smbe24-symposia}[Symposia]
 | Invited speaker on "Implicit pangenome graph for accessible pangenomics"
 | icon:file-pdf-o[] {uri-github-pag33-2026-invitation}[Invitation]
 
-| `23 Sept. 2025 to 26 Sept. 2025` +
+| `23 Sept. 2025 to 25 Sept. 2025` +
 | {uri-sigu-ring14-2025}[SIGU 2025]
 | Invited speaker on "A pangenome view on acrocentric chromosomes"
 | icon:file-pdf-o[] {uri-sigu-ring14-2025-program}[Program]
@@ -722,6 +651,7 @@ icon:file-pdf-o[] {uri-agi-simag-2023-brochure}[Brochure]
 
 pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 
+// cvgen:publications:begin  (generated from cv-overleaf/*.bib -- do not edit by hand)
 [cols="1,3,3,1",options="header"]
 |===
 
@@ -731,266 +661,265 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 ^| icon:link[] Links
 
 | bioRxiv, _Submitted_
-| **Concerted evolution and unorthodox recombination of human subtelomeres*
-| *Project conception, all analyses and figures, software development, paper writing*
-| icon:spinner[] {uri-guarracino2026-subtelomeres-preprint}[Preprint]
-
-| bioRxiv, _Submitted_
 | Panomap: Unbiased Nanopore Signal Mapping with Pangenome Variation Graphs
 | Pangenomic support, paper editing
-| icon:spinner[] {uri-shih2026-panomap-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.64898/2026.07.10.737796[Preprint]
+
+| bioRxiv, _Submitted_
+| pass:[*]**Concerted evolution and unorthodox recombination of human subtelomeres**
+| **Project conception, all analyses and figures, software development, paper writing**
+| icon:spinner[] https://doi.org/10.64898/2026.07.10.737660[Preprint]
 
 | bioRxiv, _Submitted_
 | The Vertebrate Genomes Project Phase I: A global reference genome resource
 | Pangenome alignment analysis
-| icon:spinner[] {uri-formenti2026-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.64898/2026.06.24.732306[Preprint]
 
 | bioRxiv, _Submitted_
 | A Pan-pangenome illuminates complex structural variation and selection in humans, chimpanzees, and bonobos
 | De novo genome assembly
-| icon:spinner[] {uri-rocha2026-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.64898/2026.06.06.730619[Preprint]
 
 | bioRxiv, _Submitted_
 | Population-scale Y chromosome assemblies reveal recurrent remodeling within constrained architectures
 | Pangenome graph construction
-| icon:spinner[] {uri-hallast2026-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.64898/2026.06.03.729890[Preprint]
 
 | bioRxiv, _Submitted_
 | KaryoScope: rapid, alignment-free sequence annotation for the pangenome era
 | Robertsonian translocation analysis
-| icon:spinner[] {uri-ranallobenavidez2026-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.64898/2026.05.15.725544[Preprint]
 
 | bioRxiv, _Submitted_
 | A complete human pancreatic cancer genome
 | MHC analysis, contig partitioning, manuscript editing
-| icon:spinner[] {uri-wagner2026-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.64898/2026.05.01.722316[Preprint]
 
 | bioRxiv, _Submitted_
-| ***Adaptive Tracepoints for Pangenome Alignment Compression*
-| *Project conception and guidance, software development, manuscript writing, experiments.*
-| icon:spinner[] {uri-kaushan2026-preprint}[Preprint]
+| pass:[**]**Adaptive Tracepoints for Pangenome Alignment Compression**
+| **Project conception and guidance, software development, manuscript writing, experiments**
+| icon:spinner[] https://doi.org/10.64898/2026.02.16.706236[Preprint]
 
 | bioRxiv, _Submitted_
-| Population-scalable genotyping from low-coverage sequencing data using pangenome graphs
-| Software development, evaluations, manuscript writing.
-| icon:spinner[] {uri-bolognini2025-preprint}[Preprint]
+| pass:[*]**Population-scalable genotyping from low-coverage sequencing data using pangenome graphs**
+| **Software development, evaluations, manuscript writing**
+| icon:spinner[] https://doi.org/10.64898/2026.02.05.704023[Preprint]
 
 | bioRxiv, _Submitted_
 | Origin and evolution of acrocentric chromosomes in human and great apes
 | Analysis and manuscript writing
-| icon:spinner[] {uri-solar2025-preprint}[Preprint]
-
-| Cell, _In press_
-| A complete diploid human genome benchmark for personalized genomics
-| Assembly generation and manuscript writing
-| icon:spinner[] {uri-hansen2025-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.64898/2025.12.22.696095[Preprint]
 
 | bioRxiv, _Submitted_
 | The reference-free pangenome of Arabidopsis thaliana
 | Pangenomic support
-| icon:spinner[] {uri-lia2025-preprint}[Preprint]
+| icon:spinner[] https://doi.org/10.1101/2025.06.25.661508[Preprint]
+
+| Cell, _In press_
+| A complete diploid human genome benchmark for personalized genomics
+| Assembly generation and manuscript writing
+| icon:book[] https://doi.org/10.1101/2025.09.21.677443[Paper]
+
+| Open Research Africa, 2025
+| Creating a biomedical knowledge base by addressing GPT inaccurate responses and benchmarking context
+| Testing, paper editing
+| icon:book[] https://doi.org/10.12688/openresafrica.15854.1[Paper]
 
 | Science, 2025
 | Multispecies pangenomes reveal a pervasive influence of population size on structural variation
 | Pangenome analysis and visualization
-| icon:book[] {uri-edwards2025}[Paper]
-
-| Cell Genomics, 2025
-| High-quality mouse reference genomes reveal the structural complexity of the murine protein-coding landscape
-| Pangenomic analysis
-| icon:book[] {uri-mohab2025}[Paper]
-
-| Nature Communications, 2025
-| Cell line-matched reference enables high-precision functional genomics
-| Support for the analyses
-| icon:book[] {uri-corda2025}[Paper]
-
-| Cell Genomics, 2025
-| Chromosome-specific epigenetic control and transmission of ribosomal DNA arrays in Hominidae genomes
-| Nanopore reads analysis
-| icon:book[] {uri-potapova2025}[Paper]
-
-| *Nature, 2025*
-| **The formation and propagation of human Robertsonian chromosomes*
-| *Genetic, epigenetic, and pangenome analyses, figures, paper writing*
-| icon:book[] {uri-delima2025}[Paper]
-
-| Nature Communications, 2025
-| The reference genome of the human diploid cell line RPE-1
-| Support for the analyses and figures, Figure 2, paper writing
-| icon:book[] {uri-volpe2025}[Paper]
-
-| Open Research Africa, 2025
-| Creating a biomedical knowledge base by addressing GPT inaccurate responses and benchmarking context
-| Testing, paper editing 
-| icon:book[] {uri-darnell2025}[Paper]
+| icon:book[] https://doi.org/10.1126/science.adw1931[Paper]
 
 | Nature Methods, 2025
-| The Platinum Pedigree: A long-read benchmark for genetic variants
+| The Platinum Pedigree: a long-read benchmark for genetic variants
 | Pangenome analysis
-| icon:book[] {uri-kronenberg2025}[Paper]
+| icon:book[] https://doi.org/10.1038/s41592-025-02750-y[Paper]
+
+| **Nature, 2025**
+| pass:[*]**The formation and propagation of human Robertsonian chromosomes**
+| **Genetic, epigenetic, and pangenome analyses, figures, paper writing**
+| icon:book[] https://doi.org/10.1038/s41586-025-09540-8[Paper]
 
 | Nature, 2025
 | Human de novo mutation rates from a four-generation pedigree reference
 | Meiotic recombination analysis
-| icon:book[] {uri-dorubsky2025}[Paper]
+| icon:book[] https://doi.org/10.1038/s41586-025-08922-2[Paper]
 
 | Nature, 2025
 | Complete sequencing of ape genomes
 | Pangenome alignment/Divergence
-| icon:book[] {uri-dongahn2025}[Paper]
-
-| iScience, 2025
-| Genetic modulation of protein expression in rat brain
-| Pangenome graph building and analyses, paper editing
-| icon:book[] {uri-li2025}[Paper]
-
-| iScience, 2025
-| Pangenome reconstruction in rats enhances genotype-phenotype mapping and novel variant discovery
-| Pangenome graph building and analyses, structural variant calling, paper writing
-| icon:book[] {uri-villani2025}[Paper]
+| icon:book[] https://doi.org/10.1038/s41586-025-08816-3[Paper]
 
 | Nature, 2025
 | Leveraging a phased pangenome for haplotype design of hybrid potato
 | Pangenome graph graph construction and evaluation
-| icon:book[] {uri-cheng2025}[Paper]
+| icon:book[] https://doi.org/10.1038/s41586-024-08476-9[Paper]
 
-| Journal of the National Cancer Institute, 2024
-| Impact of radiotherapy dose, fractionation and immunotherapeutic partner in a mouse model of HR+ mammary carcinogenesis
-| Bioinformatic analysis
-| icon:book[] {uri-buque2024}[Paper]
+| Nature Communications, 2025
+| Cell line-matched reference enables high-precision functional genomics
+| Support for the analyses
+| icon:book[] https://doi.org/10.1038/s41467-025-66155-3[Paper]
+
+| Nature Communications, 2025
+| The reference genome of the human diploid cell line RPE-1
+| Support for the analyses and figures, Figure 2, paper writing
+| icon:book[] https://doi.org/10.1038/s41467-025-62428-z[Paper]
+
+| Cell Genomics, 2025
+| High-quality mouse reference genomes reveal the structural complexity of the murine protein-coding landscape
+| Pangenomic analysis
+| icon:book[] https://doi.org/10.1016/j.xgen.2025.101074[Paper]
+
+| Cell Genomics, 2025
+| Chromosome-specific epigenetic control and transmission of ribosomal DNA arrays in Hominidae genomes
+| nanopore reads analysis
+| icon:book[] https://doi.org/10.1016/j.xgen.2025.101031[Paper]
+
+| iScience, 2025
+| Genetic modulation of protein expression in rat brain
+| Pangenome graph analysis, paper editing
+| icon:book[] https://doi.org/10.1016/j.isci.2025.112079[Paper]
+
+| iScience, 2025
+| Pangenome reconstruction in rats enhances genotype-phenotype mapping and variant discovery
+| Pangenome graph building and analyses, structural variant calling, paper writing
+| icon:book[] https://doi.org/10.1016/j.isci.2025.111835[Paper]
+
+| SC24 (IEEE), 2024
+| Rapid GPU-Based Pangenome Graph Layout
+| pangenomic support
+| icon:book[] https://doi.org/10.1109/sc41406.2024.00035[Paper]
 
 | Genome Research, 2024
 | Gapless assembly of complete human and plant chromosomes using only nanopore sequencing
 | Human centromere analysis
-| icon:book[] {uri-koren2024}[Paper]
-
-| *Nature Methods, 2024*
-| **Building pangenome graphs*
-| *Software development, experiments, paper writing, documentation, testing*
-| icon:book[] {uri-garrison2024}[Paper]
-
-| Bioinformatics, 2024
-| Cluster efficient pangenome graph construction with nf-core/pangenome
-| Software development, paper editing
-| icon:book[] {uri-heumos2024}[Paper]
+| icon:book[] https://doi.org/10.1101/gr.279334.124[Paper]
 
 | Genome Research, 2024
 | High-coverage nanopore sequencing of samples from the 1000 Genomes Project to build a comprehensive catalog of human genetic variation
 | Pangenome graph building and analyses, paper method section writing
-| icon:book[] {uri-gustafson2024}[Paper]
+| icon:book[] https://doi.org/10.1101/gr.279273.124[Paper]
+
+| Journal of the National Cancer Institute, 2024
+| Impact of radiation therapy dose, fractionation, and immunotherapeutic partner in a mouse model of hormone receptor-positive mammary carcinogenesis
+| Bioinformatic analysis
+| icon:book[] https://doi.org/10.1093/jnci/djae329[Paper]
+
+| Bioinformatics, 2024
+| Cluster-efficient pangenome graph construction with nf-core/pangenome
+| software development, paper editing
+| icon:book[] https://doi.org/10.1093/bioinformatics/btae609[Paper]
+
+| **Bioinformatics, 2024**
+| pass:[*]**Pangenome graph layout by Path-Guided Stochastic Gradient Descent**
+| **Algorithm implementation and evaluation, paper writing**
+| icon:book[] https://doi.org/10.1093/bioinformatics/btae363[Paper]
+
+| **Nature Methods, 2024**
+| pass:[*]**Building pangenome graphs**
+| **Software development, experiments, paper writing, documentation, testing**
+| icon:book[] https://doi.org/10.1038/s41592-024-02430-3[Paper]
 
 | Nature, 2024
 | Recurrent evolution and selection shape structural diversity at the amylase locus
-| Pangenome graph analsysis, genome assembly, paper writing and editing
-| icon:book[] {uri-bolognini2024}[Paper]
+| Pangenome graph analysis, genome assembly, paper writing and editing
+| icon:book[] https://doi.org/10.1038/s41586-024-07911-1[Paper]
 
-| arXiv, 2024
-| Rapid GPU-Based Pangenome Graph Layout
-| Pangenomic support
-| icon:book[] {uri-li2024}[Paper]
-
-| *Bioinformatics, 2024*
-| **Pangenome graph layout by Path-Guided Stochastic Gradient Descent*
-| *Algorithm implementation and evaluation, paper writing*
-| icon:book[] {uri-heumos2024}[Paper]
+| Frontiers in Genetics, 2023
+| Pangenome graphs in infectious disease: a comprehensive genetic variation analysis of Neisseria meningitidis leveraging Oxford Nanopore long reads
+| Pangenomic analyses and support, paper editing
+| icon:book[] https://doi.org/10.3389/fgene.2023.1225248[Paper]
 
 | Genome Biology, 2023
 | A super-pangenome of the North American wild grape species
-| Support for pangenome graph building and read mapping against the graph
-| icon:book[] {uri-cochetel2023}[Paper]
+| Support for pangenome graph building and graph read mapping
+| icon:book[] https://doi.org/10.1186/s13059-023-03133-2[Paper]
+
+| Bioinformatics, 2023
+| Optimal gap-affine alignment in O(s) space
+| testing, evaluation, Figure 2
+| icon:book[] https://doi.org/10.1093/bioinformatics/btad074[Paper]
 
 | Nature, 2023
 | The complete sequence of a human Y chromosome
 | Variants and Liftover
-| icon:book[] {uri-rhie2023}[Paper]
+| icon:book[] https://doi.org/10.1038/s41586-023-06457-y[Paper]
 
-| Frontiers in Genetics, 2023
-| Pangenome Graphs in Infectious Disease: A Comprehensive Genetic Variation Analysis of Neisseria Meningitidis leveraging Oxford Nanopore long reads
-| Pangenomic analyses and support, paper editing
-| icon:book[] {uri-yang2022}[Paper]
-
-| *Nature, 2023*
-| **Recombination between heterologous human acrocentric chromosomes*
-| *Pangenomic analyses, Figures from 1 to 5, paper writing*
-| icon:book[] {uri-guarracino2023}[Paper]
+| **Nature, 2023**
+| pass:[*]**Recombination between heterologous human acrocentric chromosomes**
+| **pangenomic analyses, figures from 1 to 5, paper writing**
+| icon:book[] https://doi.org/10.1038/s41586-023-05976-y[Paper]
 
 | Nature, 2023
 | A draft human pangenome reference
-| Paper editing, pangenome graph creation and visualization, population genetic analysis
-| icon:book[] {uri-liao2023}[Paper]
-
-| Bioinformatics, 2023
-| Optimal gap-affine alignment in O(s) space
-| Testing, evaluation, Figure 2
-| icon:book[] {uri-marcosola2023}[Paper]
+| paper editing, pangenome graph creation, pangenome visualization, population genetic analysis
+| icon:book[] https://doi.org/10.1038/s41586-023-05896-x[Paper]
 
 | Bioinformatics, 2022
 | Unbiased pangenome graphs
-| Parallelization of a bottleneck, bug fixings, experiments in multiple species
-| icon:book[] {uri-garrison2022}[Paper]
+| Bottleneck parallelization, bug fixings, experiments in multiple species
+| icon:book[] https://doi.org/10.1093/bioinformatics/btac743[Paper]
 
-| Nature, 2022
-| Semi-automated assembly of high-quality diploid human reference genomes
-| Pangenome alignments, Jaccard, PCA and MHC analyses, Figure 2
-| icon:book[] {uri-jarvis2022}[Paper]
+| **Bioinformatics, 2022**
+| pass:[*]**ODGI: understanding pangenome graphs**
+| **paper writing, documentation, made the figures and the table, and implemented several tools**
+| icon:book[] https://doi.org/10.1093/bioinformatics/btac308[Paper]
 
 | Nature Immunology, 2022
 | Type I IFNs promote cancer cell stemness by triggering the epigenetic regulator KDM1B
-| Figure 6.a, 7.a, and 7.b, contributed for Figure 6.c,
-6.e, performed RNA-seq, ATAC-seq, microarray data analysis, correlation analyses,
-TF-binding motif enrichment, survival analyses
-| icon:book[] {uri-musella2022}[Paper]
+| made Figure 6.a, 7.a, and 7.b, contributed for Figure 6.c, 6.e, performed RNA-seq, ATAC-seq, and microarray data analysis, correlation analyses, TF-binding motif enrichment, and survival analyses
+| icon:book[] https://doi.org/10.1038/s41590-022-01290-3[Paper]
 
-| *Bioinformatics, 2022*
-| **ODGI: understanding pangenome graphs*
-| *Paper and documentation writing, figures and table, implemented several tools*
-| icon:book[] {uri-guarracino2022-odgi}[Paper]
+| Nature, 2022
+| Semi-automated assembly of high-quality diploid human reference genomes
+| pangenome alignments, Jaccard, PCA and MHC analyses, figure 2
+| icon:book[] https://doi.org/10.1038/s41586-022-05325-5[Paper]
 
 | Non-coding RNA Research, 2022
 | Evaluation of potential miRNA sponge effects of SARS genomes in human
-| Genome sequences collection, filtering, deduplication, alignment, variant calling
-| icon:book[] {uri-pepe2022}[Paper]
-
-| *Nucleic Acids Research, 2021*
-| **BRIO: a web server for RNA sequence and structure motif scan*
-| *Paper writing, figures and table, refactored and completed the webserver, datasets refinement*
-| icon:book[] {uri-guarracino2021-brio}[Paper] +
-icon:globe[] {uri-guarracino2021-brio-webserver}[Webserver] +
-icon:github[] {uri-github-brio}[Repository]
-
-| Communications Biology, 2021
-| Genome-wide bioinformatic analyses predict key host and viral factors in SARS-CoV-2 pathogenesis
-| Differential expression analyses, including batch effects exploration, GO/pathway enrichment analyses
-| icon:book[] {uri-ferrarini2021}[Paper] +
-icon:github[] {uri-github-covid19-research}[Repository]
+| genomes collection, filtering, deduplication, alignment, and variant calling
+| icon:book[] https://doi.org/10.1016/j.ncrna.2022.01.003[Paper]
 
 | Cancers, 2021
 | The Targeting of MRE11 or RAD51 Sensitizes Colorectal Cancer Stem Cells to CHK1 Inhibition
-| Figure 1.A, helped in analyzing survival data
-| icon:book[] {uri-mattiello2021}[Paper]
+| made Figure 1.A, and helped in analyzing survival data
+| icon:book[] https://doi.org/10.3390/cancers13081957[Paper]
+
+| **NAR Genomics & Bioinformatics, 2021**
+| pass:[*]**Relative Information Gain: Shannon entropy-based measure of the relative structural conservation in RNA alignments**
+| **wrote the paper, contributed to Figure 2, made Figure 3, 4, and 5, and fixed, refactored and completed the framework**
+| icon:book[] https://doi.org/10.1093/nargab/lqab007[Paper] +
+icon:github[] https://github.com/helmercitterich-lab/RIG[Repository]
+
+| **Nucleic Acids Research, 2021**
+| pass:[*]**BRIO: a web server for RNA sequence and structure motif scan**
+| **wrote the paper, made the figures and the table, refactored and completed the web server, and refined the datasets**
+| icon:book[] https://doi.org/10.1093/nar/gkab400[Paper] +
+icon:globe[] http://brio.bio.uniroma2.it[Webserver] +
+icon:github[] https://github.com/helmercitterich-lab/BRIO[Repository]
+
+| Communications Biology, 2021
+| Genome-wide bioinformatic analyses predict key host and viral factors in SARS-CoV-2 pathogenesis
+| differential expression analyses, including batch effects exploration, and GO/pathway enrichment analyses
+| icon:book[] https://doi.org/10.1038/s42003-021-02095-0[Paper] +
+icon:github[] https://github.com/vaguiarpulido/covid19-research[Repository]
 
 | Cell Death & Disease, 2021
 | Inhibition of HECT E3 ligases as potential therapy for COVID-19
-| Figure 4, _in silico_ 3D structures analysis
-| icon:book[] {uri-novelli2021}[Paper]
+| made Figure 4, and provided in silico 3D structures analysis
+| icon:book[] https://doi.org/10.1038/s41419-021-03513-1[Paper]
 
-| *NAR Genomics & Bioinformatics, 2021*
-| **Relative Information Gain: Shannon entropy-based measure of the relative structural conservation in RNA alignments*
-| *Paper writing, contributed to Figure 2, made Figure 3, 4, and 5, and fixed, refactored and completed the framework*
-| icon:book[] {uri-pietrosanto-adinolfi-guarracino2021-rig}[Paper] +
-icon:github[] {uri-github-rig}[Repository]
-
-| Cell Death & Disease, 2021
+| Cell Death & Differentiation, 2021
 | Control of replication stress and mitosis in colorectal cancer stem cells through the interplay of PARP1, MRE11 and RAD51
-| Bioinformatics support
-| icon:book[] {uri-manic2021}[Paper]
+| bioinformatics support
+| icon:book[] https://doi.org/10.1038/s41418-020-00733-4[Paper]
 
 |===
+// cvgen:publications:end
 
 == icon:flask[] Research experience
 
-icon:calendar[] `1 Nov. 2018 to 8 Nov. 2022` +
+icon:calendar[] `1 Nov. 2018 to 8 Feb. 2022` +
 icon:university[] *Bioinformatic analyses of multiomics data, {university-tor-vergata}* (Rome, Italy).
 
 * Germline and somatic variants analyses on Whole-Exome sequencing (WES) data: quality control, sample matching, rRNA contamination, read trimming and mapping, variant calling, and functional prediction
@@ -1006,7 +935,7 @@ icon:university[] *Bioinformatic analyses of multiomics data, {university-tor-ve
 * Cox modeling and survival analysis on patient cohorts (from TCGA and cBioPortal platforms)
 * Basic procedures on High Performance Computing (HPC) machines
 
-icon:calendar[] `5 Apr. 2020 to 21 Sept. 2022` +
+icon:calendar[] `5 Apr. 2020 to 21 Sept. 2021` +
 icon:university[] *Previous software development for pangenomics*.
 
 * Workflow development of a public sequence resource for on-the-fly analyses (icon:github[] {uri-github-pubseq}[bh20-seq-resource])
@@ -1118,7 +1047,7 @@ icon:file-pdf-o[] {uri-github-smbe23-certificate}[Certificate]
 | Chromosome communities in the human pangenome
 | icon:file-pdf-o[] {uri-github-iggsy2022-presentation}[Presentation]
 
-| `2 Nov. 2021 to 4 Nov. 2022` +
+| `2 Nov. 2021 to 4 Nov. 2021` +
 | {uri-3dbioinfo2021}[3D-BioInfo 2021]
 | RNA secondary structure motifs involved in the interaction with RNA binding proteins
 | icon:file-pdf-o[] {uri-3dbioinfo2021-abstract}[Abstract]
@@ -1158,11 +1087,11 @@ icon:file-pdf-o[] {uri-eacr2021-poster}[Poster]
 | icon:file-pdf-o[] {uri-thebiologyofgenomes2021-abstract}[Abstract] +
 icon:file-pdf-o[] {uri-thebiologyofgenomes2021-poster}[Poster]
 
-| `11 May 2021 to 14 May 2021` +
-| {uri-bbcc2021}[BBCC2021]
+| `16 Nov. 2020 to 18 Nov. 2020` +
+| {uri-bbcc2020}[BBCC2020]
 | Population genomics analyses on pangenome graphs
-| icon:file-pdf-o[] {uri-bbcc2021-abstract}[Abstract] +
-icon:file-pdf-o[] {uri-bbcc2021-presentation}[Presentation] ({uri-bbcc2021-presentation-f1000research}[f1000research link])
+| icon:file-pdf-o[] {uri-bbcc2020-abstract}[Abstract] +
+icon:file-pdf-o[] {uri-bbcc2020-presentation}[Presentation] ({uri-bbcc2020-presentation-f1000research}[f1000research link])
 
 | `28 Sept. 2020 to 1 Oct. 2020` +
 | {uri-vcbm2020}[EG VCBM 2020]
@@ -1295,7 +1224,7 @@ icon:link[] {uri-hprc2025-qa-video}[Q&A video]
 | *Helper* for the "Parallel Graph Traversal for Variation Graphs" project
 | icon:link[] {uri-google-summer-of-code-blog}[Blog]
 
-| `20 June 2020` +
+| `6 May 2020` +
 | {uri-lemonde-binaire}[Lemonde/binaire]
 | Quote in the newspaper *Le Monde*: SARS-CoV-2 et Covid-19
 | icon:link[] {uri-lemonde-binaire-article}[Blog]

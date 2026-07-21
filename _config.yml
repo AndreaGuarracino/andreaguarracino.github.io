@@ -1,0 +1,9 @@
+# GitHub Pages / Jekyll config.
+# The cv/ folder holds all the LaTeX CV sources + the build pipeline. It lives in
+# this repo (single source of truth for publications) but must NOT be published as
+# web pages, so Jekyll excludes it from the built site.
+exclude:
+  - cv
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,497 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{standalone}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[utf8]{inputenc}
+
+%\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{marvosym} % For cool symbols.
+%\usepackage{hyperref}
+
+\setlength{\leftmargini}{5.0em} % Increase itemize indentation
+
+
+\usepackage{xcolor,soul}
+\newcommand{\myul}[2][black]{\setulcolor{#1}\ul{#2}\setulcolor{black}}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Andrea} % Your first name
+\familyname{Guarracino} % Your last name
+
+% All information in this block is optional; comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Translational Genomics Research Institute (TGen)\\Bioinnovation and Genome Sciences Division\\}{445 N 5th St, Phoenix, AZ 85004}
+%\mobile{(+39) xxx xx xx xxx}
+%\fax{(000) 111 1113}
+\email{aguarracino@tgen.org}
+\homepage{andreaguarracino.github.io/}{\textbf{Website}: https://andreaguarracino.github.io}
+\extrainfo{\href{https://orcid.org/0000-0001-9744-131X}{ORCID: 0000-0001-9744-131X}}
+% social link \faGithub, \faSkype, \faLinkedin,\faStackExchange, and \faStackOverflow
+%\extrainfo{
+%    \faGithub\href{https://github.com/AndreaGuarracino}{ AndreaGuarracino}
+%    \quad
+%    \faSkype\href{https://join.skype.com/invite/f1KWmWUcDD9f}{ live:andreaguarracino}
+    %|
+    %\faLinkedin\href{https://www.linkedin.com/in/andreaguarracino}{ andreaguarracino}
+%}
+
+%----------------------------------------------------------------------------------------
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+\usepackage{multibbl}
+
+
+% \newcommand{\cvreference}[7]{%
+%     \textbf{#1}\newline% Name
+%     \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+%     \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+%     \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+%     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+%     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+%     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace{-25pt} % Adjust this value as needed
+Computer engineer working on pangenomics.
+
+%----------------------------------------------------------------------------------------
+%	Current Position
+%----------------------------------------------------------------------------------------
+\section{Current position}
+ 
+\cventry{2026/01/05 - present}{Assistant Professor at the Translational Genomics Research Institute, Bioinnovation and Genome Sciences Division}{Phoenix, USA}{}{}{}
+
+\begin{itemize}
+{
+    \item Cancer pangenomics
+}
+\end{itemize}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Collaborations
+%----------------------------------------------------------------------------------------
+\section{Collaborations}
+
+\cventry{2023/11/01 - present}{Honorary contract holder at the Princess Máxima Center for Pediatric Oncology}{Utrecht, Netherlands}{Reporting to Dr. Ruben van Boxtel and Prof. Pjotr Prins}{}{}
+
+\begin{itemize}
+{
+    \item Personalized pangenome references for improved cancer genomics
+}
+\end{itemize}
+
+\cventry{2022/11/01 - present}{E-Visitor at the Human Technopole}{Milan, Italy}{Reporting to Prof. Nicole Soranzo and Prof. Erik Garrison}{}{}
+
+\begin{itemize}
+{
+    \item Building pangenome graphs (\faBook \href{https://doi.org/10.1038/s41592-024-02430-3}{\color{teal} \myul[teal] { Garrison*, Guarracino* \textit{et al.}, 2024, Nature Methods}}) (\faGithub \href{https://github.com/pangenome/pggb}{\color{teal} \myul[teal] { pggb}}, \faGithub \href{https://github.com/pangenome/smoothxg}{\color{teal} \myul[teal] { smoothxg}})
+}
+\end{itemize}
+ 
+\cventry{2019/11/01 - present}{Italian Institute for Genomic Medicine and the Candiolo Cancer Institute}{Candiolo, Italy}{Reporting to Dr. Ilio Vitale}{}{}
+%\cvitem{Supervisors:}{\textit{Prof. Manuela Helmer-Citterich} and \textit{Dr. Ilio Vitale}}
+\begin{itemize}
+{
+    \item Spindle Assembly Checkpoint functionality in colon-rectal cancer stem cells
+    \item Exploiting karyotypic aberrations and chromosomal instability in cancer stem cells for precision immunotherapy
+}
+\end{itemize}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Employment
+%----------------------------------------------------------------------------------------
+\section{Employment}
+
+\cventry{2025/05/01 - 2025/12/30}{Assistant Professor at the University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics}{Memphis, USA}{}{}{}
+
+\begin{itemize}
+{
+    \item Implicit pangenome graphs
+}
+\end{itemize}
+
+\cventry{2022/11/01 - 2025/04/30 }{Postdoctoral Scholar at the University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics}{Memphis, USA}{Reporting to Erik Garrison}{}{}
+
+\begin{itemize}
+{
+    \item Heterologous recombination in the human pangenome (\faBook \href{https://doi.org/10.1038/s41586-023-05976-y}{\color{teal} \myul[teal] { Guarracino \textit{et al.}, 2023, Nature}})
+    \item Formation and propagation of human Robertsonian chromosomes (\faBook \href{https://pubmed.ncbi.nlm.nih.gov/40993387/}{\color{teal} \myul[teal] { de Lima*, Guarracino*, Koren* \textit{et al.}, 2025, Nature}})
+    \item Development of a new whole-genome aligner (\faGithub \href{https://github.com/waveygang/wfmash}{\color{teal} \myul[teal] { wfmash}})
+    \item Pangenome graph sorting and layout (\faBook \href{https://doi.org/10.1093/bioinformatics/btae363}{\color{teal} \myul[teal] { Heumos*, Guarracino* \textit{et al.}, 2024, Bioinformatics}})
+}
+\end{itemize}
+\cventry{2021/11/01 - 2022/10/31 }{Postdoctoral Associate at the Human Technopole}{Milan, Italy}{Reporting to Prof. Nicole Soranzo and Prof. Erik Garrison}{}{}
+
+\begin{itemize}
+{
+    \item Unbiased pangenome graphs (\faBook \href{https://doi.org/10.1093/bioinformatics/btac743}{\color{teal} \myul[teal] { Garrison and Guarracino, 2022, Bioinformatics}}) (\faGithub \href{https://github.com/ekg/seqwish}{\color{teal} \myul[teal] { seqwish}})
+    \item Optimized Dynamic Genome/Graph Implementation (\faBook \href{https://doi.org/10.1093/bioinformatics/btac308}{\color{teal} \myul[teal] { Guarracino \textit{et al.}, 2022, Bioinformatics}}) (\faGithub \href{https://github.com/pangenome/odgi}{\color{teal} \myul[teal] { ODGI}})
+}
+\end{itemize}
+\cventry{2013/03/04 - 2018/10/31 }{Computer engineer for multiplatform firmware/software development}{GISA S.n.c., Italy}{Reporting to Eng. Gaetano Giordano}{}{}
+
+\begin{itemize}
+{
+    \item Firmware development in STMicroelectronics microcontrollers for high efficiency embedded systems
+    \item Firmware and library development in open-source hardware and software platforms (Arduino/Genuino)
+    \item Development of management software and desktop applications for embedded systems programming
+    \item Mobile applications development for programming and controlling multi-service machines via Bluetooth
+    \item Implementation of proprietary communication protocols and contact/contactless (RFID) interfaces
+    \item Development and maintenance of websites and an e-commerce
+    \item Remote assistance to customers for the usage and programming of multi-service machines
+    \item Patent application on a universal system for services fruition (ITUA20165252, A1) ({{\faFilePdfO \href{https://it.espacenet.com/publicationDetails/biblio?II=0&ND=3&adjacent=true&locale=it_IT&FT=D&date=20171228&CC=IT&NR=UA20165252A1&KC=A1}{\color{teal} \myul[teal] { Patent}}}})
+    \item Basic design of simple electrical circuits for controlling actuators and reading analog/digital signals
+}
+\end{itemize}
+\cventry{2012/10/04 - 2013/01/20 }{Salesman}{L'Erborista S.A.S. di Sarno Adele \& C, Italy}{}{}{}
+
+\begin{itemize}
+{
+    \item Selling products, warehouse management and cleaning
+}
+\end{itemize}
+\cventry{2010/11/01 - 2012/03/03 }{Web Developer}{Virtual, Italy}{}{}{}
+
+\begin{itemize}
+{
+    \item Development of dynamic websites using Java Server Page, JavaScript, ASP.NET, PHP, MySQL
+}
+\end{itemize}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Education
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\cventry{2018/11/01 - 2022/02/08 }{Ph.D. in Cellular and Molecular Biology (Bioinformatics)}{University of Rome Tor Vergata, Italy}{"Investigating chromosomal instability in cancer stem cells"}{Evaluation: excellent quality}{}
+\cventry{2016/10/03 - 2018/10/25 }{Master's degree in Bioinformatics (LM-6), 110/110 cum laude}{University of Rome Tor Vergata, Italy}{"Energetic and functional characterization of phosphorylations involved in the co-regulation of protein interaction"}{GPA: 4.00, A+}{}
+\cventry{2007/10/01 - 2010/10/29 }{Bachelor's degree in Computer Engineering (L-8), 110/110 cum laude}{University of Salerno, Italy}{"High Dynamic Range (HDR) methods for industrial inspection applications"}{GPA: 4.00, A+}{}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Teaching
+%----------------------------------------------------------------------------------------
+\section{Teaching}
+\cvitem{2020/10/26 - present}{\textbf{Teacher in 'Data Structures for Bioinformatics' (2 CFU/ECTS)}, creating new material for the course. {Master's degree in Bioinformatics}, \textit{University of Rome Tor Vergata, Italy} {{(\faGithub \href{https://github.com/AndreaGuarracino/DataStructuresForBioinformatics}{\color{teal} \myul[teal] { Material}})}}}
+\cvitem{2026/06/07 - present}{\textbf{Organizer/instructor/speaker in 'EMBO Practical Course Pangenomics'}, creating new material for the course. {}\textit{Torre del Greco, Naples, Italy} ({{\faLink \href{https://meetings.embo.org/event/26-pangenomics}{\color{teal} \myul[teal] { Website}}}})}
+\cvitem{2026/05/11 - 2026/05/15}{\textbf{Instructor/organizer/speaker in 'MemPanG26 Pangenomics'}, creating new material for the course. {}\textit{Epicenter HQ, Memphis, USA} ({{\faGithub \href{https://pangenome.github.io/MemPanG26/}{\color{teal} \myul[teal] { Website}}}}, {{\faGithub \href{https://github.com/pangenome/MemPanG26/}{\color{teal} \myul[teal] { Material}}}})}
+\cvitem{2026/04/13 - 2026/04/16}{\textbf{Instructor in 'Computational Pangenomics'}, creating new material for the course. {}\textit{ Physalia-courses, Online} ({{\faLink \href{https://www.physalia-courses.org/courses-workshops/computational-pangenomics/}{\color{teal} \myul[teal] { Website}})}}}
+\cvitem{2025/10/06 - 2025/10/09}{\textbf{Planning committee member and instructor in 'HPRC 2025 Annual Meeting + Hackathon'}, creating new material for the course. {}\textit{ Memphis, USA} ({{\faLink \href{https://pangenome.github.io/HackPRC25/}{\color{teal} \myul[teal] { Website}}}}, {\faGithub \href{https://github.com/pangenome/hackprc25}{\color{teal} \myul[teal] { Material}}, {\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/other/HRPC25_AnnualMeetingPlanningCommittee_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Planning committee}}})}}
+\cvitem{2025/07/12 - 2025/07/14}{\textbf{Instructor in 'PhDSchool Hackathon on pangenomics'}, creating new material for the course. {}\textit{ FORGENOM II and PANGAIA, Ischia, Italy} ({{\faLink \href{https://algolab.github.io/forgenom_summerschool2025/}{\color{teal} \myul[teal] { Website}}}}, {\faGithub \href{https://github.com/pangenome/forgenom_summerschool2025}{\color{teal} \myul[teal] { Material}})}}
+\cvitem{2025/05/11 - 2025/05/15}{\textbf{Instructor/organizer/chair in 'MemPanG25 Pangenomics'}, creating new material for the course. {}\textit{University of Tennessee Health Science Center, Memphis, USA} ({{\faGithub \href{https://pangenome.github.io/MemPanG25/}{\color{teal} \myul[teal] { Website}}}}, {{\faGithub \href{https://github.com/pangenome/MemPanG25/}{\color{teal} \myul[teal] { Material}}}})}
+\cvitem{2025/04/07 - 2025/04/09}{\textbf{Instructor in 'Computational Pangenomics'}, creating new material for the course. {}\textit{ Physalia-courses, Online} ({{\faLink \href{https://www.physalia-courses.org/courses-workshops/computational-pangenomics/}{\color{teal} \myul[teal] { Website}})}}}
+\cvitem{2025/03/11}{\textbf{Instructor in 'Building, understanding, and using pangenomes'}, creating new material for the course. {}, \textit{Human Genome Organization (HUGO), Durban, South Africa (remote)} {{(\faFilePdfO \href{https://andreaguarracino.github.io/other/20250311_HPRC_HUGO_2025_Workshop_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Summary}})}}}
+\cvitem{2024/12/04}{\textbf{Instructor in 'Methods in genomic variant calling training course'}, creating new material for the course. {}, \textit{Human Technopole, Milan, Italy} {{(\faGithub \href{https://github.com/HTGenomeAnalysisUnit/varcall_training/tree/main/2024/slides}{\color{teal} \myul[teal] { Website}})}}}
+\cvitem{2024/10/21 - 2024/10/25}{\textbf{Organizer and instructor in 'Human Pangenome BYOD Analysis Workshop'}, creating new material and analyzing new human genome assemblies. {}\textit{H3ABioNet, Cape Town, South Africa} ({{\faGithub \href{https://github.com/pangenome/HumanPangenomeBYOD2024}{\color{teal} \myul[teal] { Material}}}}, {{\faLink \href{https://elwazi.org/trainings/28}{\color{teal} \myul[teal] { Website}}}})}
+\cvitem{2024/10/07 - 2024/10/08}{\textbf{Instructor/organizer in 'Computational Pangenomics'}, creating new material for the course. {}\textit{ AFI - Alta Formazione Insubria, Pozzolo, Italy} ({{\faLink \href{https://www.afinsubria.org/2024/07/09/computational-pangenomics/}{\color{teal} \myul[teal] { Website}}}}, {\faGithub \href{https://github.com/AndreaGuarracino/computational_pangenomics}{\color{teal} \myul[teal] { Repository}}}, {\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/certificates/CompPangenomics2024AFI_CertificateOrganizerInstructor_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}})}
+\cvitem{2024/06/19 - 2024/06/21}{\textbf{Instructor/organizer in 'Computational Pangenomics'}, creating new material for the course. {}\textit{University of Rome La Sapienza, Rome, Italy} ({{\faGithub \href{https://elixir-iib-training.github.io/site/2024-06-19-Pangenomics}{\color{teal} \myul[teal] { Website}}}}, {\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/certificates/RomePanG24_ElixirCourse_CertificateOrganizerInstructor_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}})}
+\cvitem{2024/05/18 - 2024/05/22}{\textbf{Instructor/organizer/chair in 'MemPanG24 Pangenomics'}, creating new material for the course. {}\textit{University of Tennessee Health Science Center, Memphis, USA} ({{\faGithub \href{https://pangenome.github.io/MemPanG24/}{\color{teal} \myul[teal] { Website}}}}, {{\faGithub \href{https://github.com/pangenome/MemPanG24/}{\color{teal} \myul[teal] { Material}}}}, {\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/certificates/MemPanG24_CertificateOrganizerInstructorChair_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}})}
+\cvitem{2024/04/17}{\textbf{Teacher in the 'PhD Program in Genetics, Molecular and Cellular Biology'}, introducing pangenomics and PGGB. {}\textit{University of Pavia, Italy (Virtual)} ({{\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/certificates/UniPaviaPhDCoursePangenome2024_Flier_Apr18-19_2024_final_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Flier}}}, {\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/certificates/UniPaviaPhDCoursePangenome2024_InvitationMail_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Invitation}}}})}
+\cvitem{2025/02/19}{\textbf{Teacher in 'Advanced Bioinformatics: Data Mining and Data Integration for Life Science (1.5 CFU/ECTS)'}, introducing pangenomics and PGGB (PanGenome Graph Builder). {}\textit{Utrecht Bioinformatics Center, Utrecht, Netherlands (Virtual)} ({{\faGithub \href{https://github.com/UMCUGenetics/AdvancedBioinformaticsCourse/blob/main/schedule.md}{\color{teal} \myul[teal] { Website}}}})}
+\cvitem{2024/04/09}{\textbf{Teacher in 'Advanced Bioinformatics: Data Mining and Data Integration for Life Science (1.5 CFU/ECTS)'}, introducing pangenomics and PGGB (PanGenome Graph Builder). {}\textit{Utrecht Bioinformatics Center, Utrecht, Netherlands (Virtual)} ({{\faGithub \href{https://github.com/UMCUGenetics/AdvancedBioinformaticsCourse/blob/main/schedule.md}{\color{teal} \myul[teal] { Website}}}})}
+\cvitem{2023/11/13 - 2023/11/17}{\textbf{Instructor in 'Pangenome \& RefGraph Workshop'}, creating new material and analyzing new human genome assemblies. {}\textit{H3ABioNet, Cape Town, South Africa} ({{\faGithub \href{https://github.com/AndreaGuarracino/ReferenceGraphPangenomeDataAnalysisHackathon2023}{\color{teal} \myul[teal] { Material}}}}, {{\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/certificates/H3ABioNet2023_RefGraphInvitationLetter_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Invitation}}}})}
+\cvitem{2023/10/08 - 2023/10/12}{\textbf{Instructor/organizer in 'Complex Trait Community \& Rat Genome'}, creating new material for the workshop. {}\textit{University of Tennessee Health Science Center, Memphis, USA} ({{\faGithub \href{https://complextrait.org/meetings/ctc-rg2023/program.html}{\color{teal} \myul[teal] { Website}}}, {\faFilePdfO \href{https://andreaguarracino.github.io/certificates/CTCTG2023_CertificateOrganizerInstructor_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}}})}
+\cvitem{2023/05/30 - 2023/06/02}{\textbf{Instructor/organizer/chair in 'MemPanG23 Pangenomics'}, creating new material for the course. {}\textit{University of Tennessee Health Science Center, Memphis, USA} ({{\faGithub \href{https://pangenome.github.io/MemPanG23/}{\color{teal} \myul[teal] { Website}}}}, {{\faGithub \href{https://github.com/pangenome/MemPanG23/}{\color{teal} \myul[teal] { Material}}}}, {\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/certificates/MemPanG23_CertificateOrganizerInstructorChair_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}})}
+\cvitem{2023/02/28 - 2023/03/01}{\textbf{Teacher in 'Advanced Bioinformatics: Data Mining and Data Integration for Life Science (1.5 CFU/ECTS)'}, introducing pangenomics and PGGB (PanGenome Graph Builder). {}\textit{Utrecht Bioinformatics Center, Utrecht, Netherlands (Virtual)} ({{\faGithub \href{https://github.com/UMCUGenetics/AdvancedBioinformaticsCourse/blob/main/schedule.md}{\color{teal} \myul[teal] { Website}}}})}
+\cvitem{2022/05/23 - 2022/05/27}{\textbf{Instructor in 'CPANG22 Computational PANGenomics'}, creating new material for the course. {}\textit{Instituto Gulbenkian de Ciência, Oeiras, Portugal} ({{\faGithub \href{https://gtpb.github.io/CPANG22/}{\color{teal} \myul[teal] { Website}}}}, {{\faGithub \href{https://github.com/GTPB/CPANG22}{\color{teal} \myul[teal] { Material}}}}, {{\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/certificates/CPANG22_CertificateInstructor.AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}}})}
+\cvitem{2018 - 2021 }{\textbf{Tutor in 'Bioinformatics' (6 CFU/ECTS)}, reviewing the practicals and assisting the students. {Bachelor's degree in Biological Science}, \textit{University of Rome Tor Vergata, Italy} {({{\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/other/AttestatoTutoratoBioinformatica.DigitalSign.AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}}})}}
+\cvitem{2019/12/16 - 2021/03/29 }{\textbf{Exam assistance for 'Computational Proteogenomics' (2 CFU/ECTS)}, {Master's degree in Bioinformatics}, \textit{University of Rome Tor Vergata, Italy} {}}
+\cvitem{2019/06/07 - 2021/07/21 }{\textbf{Exam assistance for 'Molecular Biology' (8 CFU/ECTS)}, {Bachelor's degree in Biological Science}, \textit{University of Rome Tor Vergata, Italy} {}}
+\cvitem{2019/06/07 - 2021/07/21 }{\textbf{Exam assistance for 'Bioinformatics' (6 CFU/ECTS)}, {Bachelor's degree in Biological Science}, \textit{University of Rome Tor Vergata, Italy} {}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Symposia
+%----------------------------------------------------------------------------------------
+\section {Symposia}
+\cvitem{2024/07/07 - 2024/07/11 }{\textbf{Organizer of the "Human genetic variability in the Pangenomic era" symposia}, {}\textit{Society for Molecular Biology \& Evolution 2024 (SMBE24), Mexico}, {\faFilePdfO \href{https://andreaguarracino.github.io/images/SMBE24_CallForAbstracts_AndreaGuarracino.png}{\color{teal} \myul[teal] { Call for abstracts}}}, {\faFilePdfO \href{https://andreaguarracino.github.io/certificates/SMBE24_CertificateOfAttendance_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}}}, {\faFilePdfO \href{https://andreaguarracino.github.io/abstracts/SMBE2024_OrganizerPangenomeSymposia_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Symposia}}}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Mentoring
+%----------------------------------------------------------------------------------------
+\section {Mentoring}
+\cvitem{2023/10/01 - present }{\textbf{Dissecting the intracellular response to replication and mitotic stress in colorectal cancer for the design of novel effective (immuno)therapies}, {PhD program in Systems Medicine, Computational Biology curricula}, \textit{SEMM European School of Molecular Medicine, Italy} {}}
+\cvitem{2024/10/02 - 2025/07/22 }{\textbf{Benchmarking Analytical Pipelines for Single-Cell Long-Read Sequencing in Colon Cancer}, {Master's degree in Bioinformatics}, \textit{University of Rome Tor Vergata, Italy} {}}
+\cvitem{2021/09/02 - 2022/04/20 }{\textbf{Machine learning to detect \textit{C. elegans} bodies from microscope images and measure their growth over time}, {Master's degree in Bioinformatics}, \textit{University of Rome Tor Vergata,Italy} {}}
+\cvitem{2021/04/20 - 2021/11/02 }{\textbf{Effect analysis of SARS-CoV-2 mutations on the pairing between the viral genome and human miRNAs}, {Bachelor’s degree in Biological Science}, \textit{University of Rome Tor Vergata, Italy} {}}
+\cvitem{2020/04/28 - 2020/11/05 }{\textbf{Analysis of repeated sequences in lincRNA candidates for exon shuffling}, {Bachelor’s degree in Biological Science}, \textit{University of Rome Tor Vergata, Italy} {}}
+\cvitem{2020/03/09 - 2021/03/12 }{\textbf{Machine Learning methods applied to kinase-substrate interaction prediction}, {Master's degree in Bioinformatics}, \textit{University of Rome Tor Vergata, Italy} {}}
+\cvitem{2020/03/02 - 2020/12/17 }{\textbf{Natural Language Processing techniques for protein encoding applied to phosphorylation prediction}, {Master's degree in Bioinformatics}, \textit{University of Rome Tor Vergata, Italy} {}}
+\cvitem{2019/12/13 - 2020/06/11 }{\textbf{Study of normalization techniques' effects in gene expression correlation analyses}, {Bachelor’s degree in Biological Science}, \textit{University of Rome Tor Vergata, Italy} {}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Invitations
+%----------------------------------------------------------------------------------------
+\section{Invitations}
+\cvitem{2026/06/19}{\textbf{Seminar on "Do we still need pangenome graphs?"}, {Scuola Superiore Sant'Anna}, \textit{Pisa, Italy} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260619_SeminarBrochureSantAnnaPisa_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Brochure}})}}}
+\cvitem{2026/05/27}{\textbf{Seminar on "Do we still need pangenome graphs?" (ICDG Grand Rounds)}, {Institute for Research and Development in Genomics}, \textit{Online, Bucharest, Romania} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260527_SeminarBrochureICDGBucharest_AndreaGuarracino.png}{\color{teal} \myul[teal] { Brochure}})}}}
+\cvitem{2026/01/09 - 2026/01/14}{\textbf{Invited speaker on "Implicit pangenome graph for accessible pangenomics"}, {PAG33}, \textit{San Diego, USA} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/certificates/PAG33_InvitationLetter_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Invitation}})}}}
+\cvitem{2025/09/23 - 2025/09/25}{\textbf{Invited speaker on "A pangenome view on acrocentric chromosomes"}, {SIGU}, \textit{Rimini, Italy} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20250926_RingChromosome14_Program_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Program}})}}}
+\cvitem{2025/03/19}{\textbf{Seminar on "Pangenome variant calling"}, {Ceitec}, \textit{Czech Republic} {{(\faLink \href{https://www.ceitec.eu/bioit-seminar-pangenome-variant-calling/a5206}{\color{teal} \myul[teal] { Link}})}}}
+\cvitem{2024/09/24}{\textbf{Seminar on "Pangenomes everywhere"}, {Stowers Institute}, \textit{USA} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20240924_SeminarBrochureStowersInstitute_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Brochure}})}}}
+\cvitem{2024/02/26}{\textbf{Seminar on "Heterologous recombination in the human pangenome"}, {University of Rome La Sapienza}, \textit{Italy} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20240226_InvitationLetterLaSapienza_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Invitation}}}}, \faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20240226_SeminarBrochureLaSapienza_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Brochure}})}
+\cvitem{2023/09/14 - 2023/09/16}{\textbf{Invited speaker on "Heterologous recombination in the human pangenome"}, {Joint Meeting AGI-SIMAG}, \textit{Cortona, Italy} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20230606_AGI-SIMAG-2023_InvitationSpeakerLetter_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Invitation}}, \faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/AGI-SIMAG-2023_Brochure_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Brochure}})}}}
+\cvitem{2023/09/13}{\textbf{Seminar on "Heterologous recombination in the human pangenome"}, {University of Rome Tor Vergata}, \textit{Italy} {{(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20230913_SeminarInvitationTorVergata_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Invitation}})}}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\section{Publications}
+See them on \href{https://scholar.google.com/citations?user=zABbjIoAAAAJ}{\color{teal} \myul[teal] {\faGoogle oogle Scholar}}.
+\subsection{Journal Articles (*first authorship, **last authorship/corresponding)}
+\newbibliography{journal}
+\bibliographystyle{journal}{plainyrrev}
+\nocite{journal}{*}
+
+\bibliography{journal}{journal}
+{\large \textsc{Refereed Journal Articles}}
+
+\subsection{In Conference Proceedings}
+\newbibliography{conference}
+\nocite{conference}{*}
+\bibliographystyle{conference}{plainyrrev}
+\bibliography{conference}{conference}
+{\large \textsc{Refereed Conference Publications}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Research experience
+%----------------------------------------------------------------------------------------
+\section{Research experience}
+\cventry{2018/11/01 - 2022/02/08 }{Bioinformatic analyses of multiomics data}{University of Rome Tor Vergata, Italy}{}{}{}
+
+\begin{itemize}
+{
+    \item Germline and somatic variants analyses on Whole-Exome sequencing (WES) data: quality control, sample matching, rRNA contamination, read trimming and mapping, variant calling, and functional prediction
+    \item Microsatellite instability (MSI) status on paired tumor-normal and tumor-only WES data
+    \item Variant calling and differential expression analyses on RNA-seq data
+    \item Neoantigen prediction and prioritization by integrating WES data and RNA-seq data
+    \item Analysis of Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) data
+    \item Normalization and correlation analysis of transcriptomic microarray data (Affymetrix)
+    \item Proteomic and phosphoproteomic analyses of Reverse Phase Protein microarray (RPPA) data
+    \item RNA structural characterization and conservation (\faBook \href{https://doi.org/10.1093/nargab/lqab007}{\color{teal} \myul[teal] { Pietrosanto*, Adinolfi*, Guarracino* \textit{et al.}, 2021, NAR}})
+    \item Web server development for RNA sequence and structure motif scan (\faBook \href{https://doi.org/10.1093/nar/gkab400}{\color{teal} \myul[teal] { Guarracino \textit{et al.}, 2021, NAR}})
+    \item Energetic and functional analyses of phosphorylations applied\textit{in silico} on 3D structures of protein complexes
+    \item Cox modeling and survival analysis on patient cohorts (from TCGA and cBioPortal platforms)
+    \item Basic procedures on High Performance Computing (HPC) machines
+}
+\end{itemize}
+
+\cventry{2020/04/05 - 2021/09/21 }{Previous software development for pangenomics}{Virtual}{}{}{}
+
+\begin{itemize}
+{
+    \item Workflow development of a public sequence resource for on-the-fly analyses (\faGithub \href{https://github.com/pubseq/bh20-seq-resource}{\color{teal} \myul[teal] { bh20-seq-resource}})
+    \item Development of a pangenome graph browser (\faGithub \href{https://github.com/graph-genome/graph-genome.github.io}{\color{teal} \myul[teal] { Pantograph}})
+}
+\end{itemize}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Awards
+%----------------------------------------------------------------------------------------
+\section{Awards}
+\cvitem{2022/07/05}{\textbf{Student Travel Grant, 600 CHF (632.36 EUR)}, {International Genome Graph Symposium 2022}, \textit{Ascona, Switzerland} {{(\faFilePdfO \href{https://andreaguarracino.github.io/other/IGGSy2022_StudentTravelGrant_AndreaGuarracino.jpg}{\color{teal} \myul[teal] { Certificate}})}}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Peer-review
+%----------------------------------------------------------------------------------------
+%\section {Peer-review for international journals}
+%\cvitem{2021/02/26 - present }{\textbf{Human Genomics }{(\href{https://humgenomics.biomedcentral.com/}{\color{teal} \myul[teal] {Journal}})}, \faLink \href{https://orcid.org/0000-0001-9744-131X}{\color{teal} \myul[teal] { Review identifiers}}}
+%\cvitem{2021/02/23 - present }{\textbf{PLOS ONE }{(\href{https://journals.plos.org/plosone/}{\color{teal} \myul[teal] {Journal}})}, \faLink \href{https://orcid.org/0000-0001-9744-131X}{\color{teal} \myul[teal] { Review identifiers}}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Talks \& Poster
+%----------------------------------------------------------------------------------------
+\section{Talks \& Poster}
+\cvitem{July 2026}{\textit{IGGSy 2026}, {Pervasive inter-chromosomal recombination shapes human subtelomeric architecture (oral presentation)}, (\href{https://iggsy.org/program}{\color{teal} \myul[teal] {Program}})}
+\cvitem{June 2026}{\textit{SMBE26}, {Pervasive inter-chromosomal recombination shapes human subtelomeric architecture (oral presentation)}, (\href{https://andreaguarracino.github.io/certificates/SMBE26_CertificateOralPresentation_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Certificate}})}
+\cvitem{Oct. 2024}{\textit{CTC-RG 2024}, {Multi-platform genome assembly of an
+SHR/OlaIpcv X BN-Lx/Cub F1 rat "trio"}, (\href{https://andreaguarracino.github.io/presentations/CTCRG24_MultiPlatformSHRXBNLxF1Trio_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{Sept. 2024}{\textit{HPRC 2024}, {Lessons from the amylase locus}, (\href{https://andreaguarracino.github.io/presentations/HPRC24_LessonsFromAmylaseLocus_Presentation_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{Sept. 2024}{\textit{T2T 2024}, {Formation and propagation of human Robertsonian chromosomes}, (\href{https://andreaguarracino.github.io/presentations/T2T24_FormationTransmissionRobChrs_Presentation_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{July 2024}{\textit{IGGSy 2024}, {The complete sequence of Robertsonian chromosomes}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/presentations/IGGSy2024_TheCompleteSeqOfHumanRobChromosomes_Presentation_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{May 2024}{\textit{The Biology of Genomes}, {Aligning pangenomes with hierarchical wavefront algorithm}, (\href{https://andreaguarracino.github.io/posters/BoG24_AligningPangenomesWithHierarchicalWFA_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{July 2023}{\textit{SMBE23}, {Recombination between heterologous human acrocentric chromosomes}, (\href{https://andreaguarracino.github.io/posters/SMBE23_RecombinationHeterologousAcrocentricChromosomes_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{July 2023}{\textit{SMBE23}, {Building a Pangenome Graph for the HXB/BXH Recombinant Inbred Rat Strain Family: Enhanced Discovery of Complex Variants and Validation with Sanger Sequencing}, (\href{https://andreaguarracino.github.io/posters/SMBE23_BuildingPangenomeGraphRecombInbredRatStrainFamily_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{Sept. 2022}{\textit{CTC-RG 2022}, {Initial effort in generating a rat pangenome}, (\href{https://andreaguarracino.github.io/abstracts/CTC_RG_2022_InitialEffortGenRatPangenome_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}})}
+\cvitem{July 2022}{\textit{IGGSy 2022}, {Chromosome communities in the human pangenome}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/presentations/IGGSy2022_ChromosomeCommunitiesHumanPangenome_Presentation_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{Nov. 2021}{\textit{3D-BioInfo 2021}, {RNA secondary structure motifs involved in the interaction with RNA binding proteins}, (\href{https://andreaguarracino.github.io/abstracts/3DBioinfo2021_RNASecondaryStructMotifsInvolvedInTheInteractionWithRBPs_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}})}
+\cvitem{Oct. 2021}{\textit{Biodiversity Genomics 2021}, {Chr. communities in the human pangenome}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/BiodiversityGenomics2021_ChromosomeCommunitiesHumanPangenome_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/presentations/BiodiversityGenomics2021_ChromosomeCommunitiesHumanPangenome_Presentation_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{Sept. 2021}{\textit{AGI2021}, {A pangenome for the expanded BXD family of mice}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/AGI2021_APangenomeForTheExpBXDfamOfMice_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/AGI2021_APangenomeForTheExpBXDfamOfMice_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{Sept. 2021}{\textit{GCB 2021}, {ODGI: scalable tools for pangenome graphs}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/GCB2021_ODGIScalableToolsForPangenomeGraphs_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/presentations/GCB2021_ODGIScalableToolsForPangenomeGraphs_Presentation_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{June 2021}{\textit{EACR}, {Control of replication stress and mitosis in cancer stem cells}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/posters/EACR2021_ControlReplicationStressAndMitosisInCancerStemCells_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{May 2021}{\textit{EMBL in Italy}, {Identification of RNA sequence and structure motifs for protein interaction},(\href{https://github.com/AndreaGuarracino/cv/blob/main/posters/EMBLInItaly2021_IdentificationOfRNASeqAndStrMotifsForProteinInteraction_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{May 2021}{\textit{The Biology of Genomes}, {The PanGenome Graph Builder}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/BoG2021_ThePangenomeGraphBuilder_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/BoG2021_ThePanGenomeGraphBuilder_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{Nov. 2020}{\textit{BBCC}, {Population genomics analyses on pangenome graphs}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/BBCC2020_PopulationGenomicsAnalysesOnPangenomeGraph_ProgramAndAbstractBook.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/presentations/f1000research-326757.pdf}{\color{teal} \myul[teal] {Presentation}})}
+\cvitem{Sept. 2020}{\textit{EG VCBM}, {Graph Layout by Path-Guided Stochastic Gradient}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/EG_VCMB_GraphLayoutByPath-GuidedStochasticGradientDescent_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/EG_VCMB_GraphLayoutByPath-GuidedStochasticGradientDescent_Poster_Landscape_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{Sept. 2020}{\textit{T2T-HPRC}, {Graph Layout by Path-Guided Stochastic Gradient}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/T2T_HPRC_GraphLayoutByPath-GuidedStochasticGradientDescent_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/T2T_HPRC_GraphLayoutByPath-GuidedStochasticGradientDescent_Poster_Portrait_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{Sept. 2020}{\textit{T2T-HPRC}, {Scalable Variant Detection In Pangenome Models}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/T2T_HPRC_ScalableVariantDetectionInPangenomeModels_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/BBCC2020_ScalableVariantDetectionInPangenomeModels_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{July 2020}{\textit{BCC}, {COVID-19 PubSeq: Public SARS-CoV-2 Sequence Resource}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/BCC2020_COVID19_PubSeq_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/BCC2020_COVID19_PubSeq_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}}, \href{https://bcc2020.sched.com/event/coLw/covid-19-pubseq-public-sars-cov-2-sequence-resource}{\color{teal} \myul[teal] {Talk}})}
+\cvitem{July 2020}{\textit{ISMB}, {Pantograph: Scalable Interactive Graph Genome Visualization}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/ISMB2020_PantographBrowsablePangenomeVisualization_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/ISMB2020_PantographBrowsablePangenomeVisualization_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+\cvitem{July 2020}{\textit{ISMB}, {Semantic Variation Graphs - A Pangenome Ontology}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/ISMB2020_SemanticVariationGraphs_OntologiesForPangenomeGraphs_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/ISMB2020_SemanticVariationGraphs_OntologiesForPangenomeGraphs_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}}, \href{https://www.iscb.org/ismb2020-general/ismb2020-award-winners\#bio-poster}{\color{teal} \myul[teal] {BestPosterPrize}})}
+\cvitem{July 2020}{\textit{ISMB}, {Analysis of human SARS-CoV-2 infection and host-virus interaction}, (\href{https://github.com/AndreaGuarracino/cv/blob/main/abstracts/ISMB2020_ComprehensiveAnalysisSARSCoV2_Abstract_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Abstract}}, \href{https://github.com/AndreaGuarracino/cv/blob/main/posters/ISMB2020_ComprehensiveAnalysisSARSCoV2_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Poster}})}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Proficiency in English
+%----------------------------------------------------------------------------------------
+%\section{Misc}
+
+%\begin{itemize}
+%    \item I worked on a \textbf{SARS-CoV-2 publication} with researchers from 11 countries (\href{https://doi.org/10.1038/s42003-021-02095-0}{\color{teal} \myul[teal] {Ferrarini, Lal \textit{et al.}, 2021}})
+%\end{itemize}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Training
+%----------------------------------------------------------------------------------------
+\section{Training}
+
+\cvitem{2025/03/09 - 2025/03/15 }{\textbf{Graph Summit 2025}, \textit{Okuma Private Beach \& Resort, Okinawa, Japan} (\faLink \href{https://github.com/dbcls/graphsummit/wiki/2025}{\color{teal} \myul[teal] { Website}}, \faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20250227_GS_InvitationLetterDBCLS_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Invitation}})}
+\cvitem{2023/07/17 - 2023/07/21 }{\textbf{A multidisciplinary approach to epistasis detection}, \textit{Lorentz Center, Leiden, Netherlands} (\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/LorentzEpistatisWorkshop_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Poster}})}
+\cvitem{2021/03/22 - 2021/03/24 }{\textbf{nf-core hackaton}, \textit{nf-core/pangenome pipeline development} (\faLink \href{https://nf-co.re/events/2021/hackathon-march-2021}{\color{teal} \myul[teal] { Link}}, \faGithub \href{https://github.com/nf-core/pangenome}{\color{teal} \myul[teal] { nf-core/pangenome}})}
+\cvitem{2020/11/09 - 2020/11/13 }{\textbf{BioHackathon Europe}, \textit{Federated Interoperable Annotated Variation Graphs} (\faLink \href{https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/25}{\color{teal} \myul[teal] { Link}})}
+\cvitem{2020/07/08}{\textbf{Overcoming Challenges in Academic Writing:} Articles and Grant Applications (\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/certificates/ENAGO_CertificateOvercomingChallengesAcademicWriting_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}})}
+\cvitem{2018/04/21}{\textbf{English language certification}, ESB Level 1 (B2 CEFR), Pass with distinction {(\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/certificates/EnglishCertificateESOL_B2_CEFR_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}})}}
+\cvitem{2020/04/05 - 2020/04/11 }{COVID-19-BH20 Biohackathon, \textit{Groups: Pangenome, Pangenome Browser, Machine Learning, Gene Expression, Public Sequence Resource} (\faLink \href{https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Pangenome}{\color{teal} \myul[teal] { Link}})}
+\cvitem{2017/09/27 - 2017/09/29 }{ELIXIR-IIB / Best practices for RNA-Seq data analysis, \textit{Software Carpentry Workshop and Elixir-ITA / University of Salerno, Italy} (\faFilePdfO \href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/certificates/ELIXIR_IIB_CertificateBestPracticesForRNAseqDataAnalysis_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Certificate}})}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Achievements
+%----------------------------------------------------------------------------------------
+\section{Misc}
+\cvitem{2020/10/20 - present}{Associate Member of the \textbf{Human Pangenome Reference Consortium} {(\faLink \href{https://www.nature.com/collections/aebdjihcda}{\color{teal} \myul[teal] { Collection}}, \faLink \href{https://www.youtube.com/watch?v=bJ7wkbwd5oU}{\color{teal} \myul[teal] { Q\&A video}})}}
+\cvitem{2021/07/09}{Chair at \textbf{Deciphering the complexity in neurodegeneration and cancer} workshop {(\faFilePdfO \href{https://github.com/AndreaGuarracino/cv/blob/main/achievements/PhDWorkshop_DecipheringTheComplexityInNeurodegenAndCancer_Poster_AndreaGuarracino.pdf}{\color{teal} \myul[teal] { Poster}})}}
+\cvitem{2020/06/07 - 2020/08/30 }{Helper for \textbf{Parallel Graph Traversal for Variation Graphs}, {\textit{Google Summer of Code}} {(\faLink \href{https://gsocgraph.blogspot.com/2020/08/final-week-recap-of-my-gsoc-experience.html}{\color{teal} \myul[teal] { Blog}})}}
+\cvitem{2020/05/06}{{Quote in the newspaper \textbf{Le Monde}: SARS-CoV-2 et Covid-19: jouons sur les mots }{(\faLink \href{https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/}{\color{teal} \myul[teal] { Article}})}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Achievements
+%----------------------------------------------------------------------------------------
+\section{Achievements}
+\cvitem{2020}{\href{https://www.iscb.org/ismb2020-general/ismb2020-award-winners\#bio-poster}{\color{teal} \myul[teal] {Best Poster Prize}} on "Semantic Variation Graphs: Ontologies for Pangenome Graphs", \textit{ISMB}}
+\cvitem{2016 - 2018}{Scholarships during the Master’s degree in Bioinformatics, \textit{University of Rome Tor Vergata, Italy}}
+\cvitem{2007 - 2010}{Scholarships during the Bachelor’s degree in Computer Engineering, \textit{University of Salerno, Italy}}
+\cvitem{2007}{100/100 cum laude grade in the high school diploma, \textit{IIS Basilio Focaccia, Italy}, (\href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/200807-08CircAlun36_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Info}})}
+\cvitem{2007}{Highest votes average (9.44/10) in all fifth-grade classes, \textit{IIS Basilio Focaccia, Italy}, (\href{https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/200807-08CircAlun36_AndreaGuarracino.pdf}{\color{teal} \myul[teal] {Info}})}
+\cvitem{2006}{Highest votes average (9.33/10) in all fourth-grade classes, \textit{IIS Basilio Focaccia, Italy}}
+\cvitem{2005}{Highest votes average (9.22/10) in all third-grade classes, \textit{IIS Basilio Focaccia, Italy}}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Computer skills
+%----------------------------------------------------------------------------------------
+\section{Computer skills}
+
+\cvitem{Programming}{C/C++, Rust, Java, Python, R, HTML/CSS, Javascript, Bash, LaTeX, Assembly}
+\cvitem{O.S.}{Linux, Windows}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Referees
+%----------------------------------------------------------------------------------------
+\section{Referees}
+
+\begin{tabular}{lr}
+
+
+\begin{minipage}[t]{3.6in}
+\textbf{Prof. Manuela Helmer-Citterich}\\
+\textit{Full Professor} \\
+\textit{Molecular Biology} \\
+\textit{University of Rome Tor Vergata, Italy}\\
+\Letter\ \href{mailto:citterich@uniroma2.it}{citterich@uniroma2.it}
+\end{minipage}
+&
+\begin{minipage}[t]{3.6in}
+\textbf{Ilio Vitale, Ph.D.}\\
+\textit{Group Leader} \\
+\textit{Italian Institute for Genomic Medicine, Italy}\\
+\textit{Candiolo Cancer Institute} \\
+\Letter\ \href{mailto:iliovit@gmail.com}{iliovit@gmail.com}
+\end{minipage}
+\\
+\\
+\begin{minipage}[t]{3.6in}
+\textbf{Prof. Erik Garrison}\\
+\textit{Associate Professor} \\
+\textit{Genomics, Genetics, and Informatics}\\
+\textit{University of Tennessee Health Science Center, USA}\\
+\Letter\ \href{mailto:egarris5@uthsc.edu}{egarris5@uthsc.edu}
+\end{minipage}
+&
+\begin{minipage}[t]{3.6in}
+\textbf{Prof. Pjotr Prins}\\
+\textit{Associate Professor} \\
+\textit{Genomics, Genetics, and Informatics}\\
+\textit{University of Tennessee Health Science Center, USA}\\
+\Letter\ \href{mailto:jprins@uthsc.edu}{jprins@uthsc.edu}
+\end{minipage}
+\\
+\\
+\\
+\end{tabular}
+%----------------------------------------------------------------------------------------
+
+Online version of this CV for certificates and other information: \href{https://andreaguarracino.github.io/}{\color{teal} \myul[teal] {https://andreaguarracino.github.io/}}
+
+%\vspace{1cm}
+
+\end{document}
+

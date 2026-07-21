@@ -1,0 +1,393 @@
+\documentclass[oneside,11pt,a4paper,nologo]{book}
+
+\usepackage{a4wide}
+
+\usepackage[top=0.7in,bottom=0.7in,left=0.7in,right=0.7in]{geometry} % Page margins
+
+% \usepackage{hyperref}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{varioref}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{makeidx}
+\usepackage{ulem}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+% \usepackage{times}
+\usepackage[export]{adjustbox}
+\usepackage{pifont}
+\usepackage{wrapfig}
+
+
+% \input{pjotr_commands}
+
+% \input{bio_commands}
+
+%\usepackage{mathpazo} % add possibly `sc` and `osf` options
+%\usepackage{eulervm}
+\usepackage{palatino}
+\usepackage[T1]{fontenc}
+
+% \voffset 0pt
+% \headheight 0pt
+% \headsep 0pt
+% \oddsidemargin 0pt
+
+\setlength{\parindent}{0pt}                     % paragraph indent 0 pt
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\setlength{\emergencystretch}{3em}              % absorb residual overfull lines (long titles/DOIs)
+
+\newcommand{\docname}{CV}
+\newcommand{\docversion}{\begin{center} $Version$ \end{center}}
+
+\newcommand{\etal}{\emph{et~al.\ }}
+
+\newcommand{\pprins}{{\bf {Prins~P}}}
+\newcommand{\ptitle}[1]{{#1}}
+\newcommand{\pyear}[1]{{ (#1) }}
+\newcommand{\pvolume}[1]{\textit{#1}:}
+\newcommand{\pages}[1]{{ #1}}
+\newcommand{\prefs}[1]{{ (#1)}}
+\newcommand{\pmid}[1]{{PMID:#1}}
+\newcommand{\pmcid}[1]{{#1}}
+\newcommand{\doi}[1]{DOI:{#1}}
+% \newcommand{\journal}[1]{\hbox{\bf \emph{#1}}}
+% \newcommand{\hijournal}[1]{{\bf \textcolor{gray}{\uline{#1}}}}
+% \newcommand{\hijournal}[1]{\hbox{\bf \emph{#1}}}
+
+\newcommand{\Rplus}{\protect\hspace{-.1em}\protect\raisebox{.3ex}{\large\textbf{+}}}
+\newcommand{\fairp}{\hbox{FAIR\Rplus}}
+\newcommand{\rf}[1]{\textbf{~[#1]}}
+
+\newcommand{\wuperiodone}{October 2004 - to date}
+% In dienst van/tot       : 1-10-2004 tot 1-10-2010
+%                         : 4-4-2011 tot 1-11-2012
+\newcommand{\rugrf}{September 2004 - to date}
+\newcommand{\wufree}{June 2003 - September 2004}
+\newcommand{\causadta}{August 2002 - May 2003}
+\newcommand{\causperiod}{June 2000 - July 2002}
+\newcommand{\specnetperiod}{May 1999 - May 2000}
+\newcommand{\pacsperiod}{1998 - 1999}
+\newcommand{\knpperiod}{1996 - 1998}
+\newcommand{\dhakaperiod}{1993 - 1996}
+\newcommand{\delftperiod}{1993 (six months)}
+\newcommand{\adecsperiod}{1987 - 1992}
+\newcommand{\education}{1}
+\newcommand{\publications}{1}
+\newcommand{\additional}{1}
+\newcommand{\journal}[1]{{\bf \textcolor{NavyBlue}{#1}}}
+
+\newcommand{\hijournal}[1]{{\bf \textcolor{NavyBlue}{\uline{#1}}}}
+
+\renewcommand{\footrulewidth}{.6pt}             % Ruler at the bottom
+
+\title{\docname}
+
+\fancypagestyle{firstpage}{
+\fancyhf{}                                      % empty the header and footer
+% \fancyhead[LE,RO]{\slshape Page \thepage}       % pagenumber in header
+% \fancyhead[LO]{\slshape \leftmark}              % leftmarker in header
+% \fancyhead[RE]{\slshape \rightmark}             % rightmarker in header
+\fancyfoot[LE,RO]{\today} % footer text
+\fancyfoot[RE,LO]{Curriculum Vitae \\ Andrea Guarracino}
+}
+
+\fancypagestyle{plain}{
+\fancyhf{}                                      % empty the header and footer
+\fancyhead[LE,RO]{\slshape Page \thepage}       % pagenumber in header
+\fancyhead[LO]{\slshape \leftmark}              % leftmarker in header
+\fancyhead[RE]{\slshape \rightmark}             % rightmarker in header
+\fancyfoot[LE,RO]{\today} % footer text
+\fancyfoot[RE,LO]{Curriculum Vitae \\ Andrea Guarracino}
+}
+
+\renewcommand{\emph}[1]{{\it #1}}
+
+\newcommand{\bibhref}[1]{\href{#1}{\ding{234}}}
+\newcommand{\pacs}{\emph{PACS}}
+\newcommand{\unix}{\emph{UNIX}}
+\newcommand{\linux}{\emph{Linux}}
+\newcommand{\rockl}{\emph{ROCK Linux}}
+\newcommand{\windows}{\emph{Microsoft Windows}}
+\newcommand{\solaris}{\emph{Solaris}}
+\newcommand{\mis}{\emph{MIS}}
+\newcommand{\cad}{\emph{CAD}}
+
+% Languages
+
+\newcommand{\java}{\emph{JAVA}}
+\newcommand{\ejb}{\emph{EJB}}
+\newcommand{\cpp}{\emph{C++}}
+\newcommand{\perl}{\emph{Perl}}
+\newcommand{\ruby}{\emph{Ruby}}
+
+% Design
+
+\newcommand{\oop}{\emph{OOP}}
+\newcommand{\uml}{\emph{UML}}
+\newcommand{\rup}{\emph{RUP}}
+\newcommand{\xp}{\emph{XP}}
+
+% Tools
+
+\newcommand{\cfengine}{\emph{CFEngine}}
+\newcommand{\bash}{\emph{bash}}
+
+% Protocols
+
+\newcommand{\tcpip}{\emph{TCP/IP}}
+\newcommand{\http}{\emph{HTTP}}
+\newcommand{\udp}{\emph{UDP}}
+\newcommand{\ssl}{\emph{SSL}}
+\newcommand{\xml}{\emph{XML}}
+\newcommand{\rug}{RUG}
+\newcommand{\wu}{WU}
+
+
+\AtBeginDocument{\pagestyle{firstpage}}
+
+\date{\today}
+\author{CV - Andrea Guarracino}
+
+\begin{document}
+
+\setcounter{page}{1}
+
+
+
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{AndreaGuarracinoPhoto} % first figure itself
+        % \caption{first figure}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{AndreaGuarracinoGoogleScholar} % second figure itself
+        % \caption{Google Scholar}
+    \end{minipage}
+\end{figure}
+
+% }
+
+% \vspace{-1.3in}
+
+% \small
+\section*{Andrea Guarracino}
+
+% \footnote{Repeating note}
+
+\begin{tabular}{p{5cm}l}  % column alignment r=right l=left c=center
+  Surname, Name & \uline{Guarracino}, Andrea \\
+  Job title       & Assistant Professor \\
+  Department      & Bioinnovation and Genome Sciences Division \\
+  & Translational Genomics Research Institute (TGen) \\
+  & 445 N 5th Street, Phoenix, AZ, 85004, USA \\
+  % Cell            & (+XX) XXXXXXX (IT) \\
+  E-mail          & aguarracino@tgen.org \\
+  % Date of birth   & XX XXXX XXXX \\
+  % Marital status  & Single \\
+  Nationality     & Italian (IT) \\
+  % Tax Code        & XXXXXXX \\
+  % Previous Job title & `Postdoctoral Scholar at the UTHSC (Memphis, USA) \\
+  Web site \& publications & https://andreaguarracino.github.io/~\href{https://andreaguarracino.github.io/}{\ding{234}} \\
+  Projects \& source code & https://github.com/AndreaGuarracino~\href{https://github.com/AndreaGuarracino}{\ding{234}} \\
+  ORCID & 0000-0001-9744-131X~\href{https://orcid.org/0000-0001-9744-131X}{\ding{234}} \\
+  % Peer reviewed publications & XX \\
+  Publications & {\bf 39} peer reviewed + {\bf 11} preprints = {\bf 50} total ({\bf 10} first or last)~\href{http://www.ncbi.nlm.nih.gov/pubmed/?term=Andrea+Guarracino[Author]}{\ding{234}} \\
+  Google Scholar & Citations 4585 (July 2026)~\href{https://scholar.google.com/citations?user=zABbjIoAAAAJ&hl=en}{\ding{234}} \\
+\end{tabular}
+
+
+\ifdef{\education}{
+
+\subsection*{Degrees}
+
+Ph.D. (2022) \emph{Investigating chromosomal instability in cancer stem cells}, Cellular and Molecular Biology (Bioinformatics), University of Rome Tor Vergata, Italy
+
+M.Sc. (2018) \emph{Energetic and functional characterization of phosphorylations involved in the co-regulation of protein interaction}, Bioinformatics (LM-6), University of Rome Tor Vergata, Italy
+
+B.Sc. (2010) \emph{High Dynamic Range (HDR) methods for industrial inspection applications}, Computer Engineering (L-8), University of Salerno, Italy
+
+} % education
+
+\subsection*{Professional experience}
+
+% \begin{tabular}{p{2cm}p{12.3cm}}  % column alignment r=right l=left c=center
+\input{includes/positions}
+% \end{tabular}
+
+\subsection*{Awards}
+
+2020 \emph{Best Poster Prize} on ``Semantic Variation Graphs: Ontologies for Pangenome Graphs'', ISMB~\href{https://www.iscb.org/ismb2020-general/ismb2020-award-winners\#bio-poster}{\ding{234}}
+
+2016--2018 Scholarships during the Master’s degree in Bioinformatics, University of Rome Tor Vergata, Italy
+
+2007--2010 Scholarships during the Bachelor’s degree in Computer Engineering, University of Salerno, Italy
+
+
+
+
+\ifdef{\publications}{
+
+\subsection*{Publications}
+
+% \begin{enumerate}
+\input{includes/publications.tex}
+% \end{enumerate}
+
+}
+
+\subsection*{Preprints}
+
+% \begin{enumerate}
+\input{includes/future_publications.tex}
+% \end{enumerate}
+
+
+\subsection*{Educational activities}
+
+\begin{tabular}{p{2cm}p{12.3cm}}  % column alignment r=right l=left c=center
+  \textbf{Ongoing} & \\
+
+
+  2023--- & Advisor of PhD student Giada Sancamillo, SEMM European School of Molecular Medicine (Italy), "Dissecting the intracellular response to replication and mitotic stress in colorectal cancer for the design of novel effective (immuno)therapies" \\
+
+  \textbf{Past} & \\
+  2024---2025 & Advisor of masters student Ludovica Perticone, University of Rome Tor Vergata (Italy), "Benchmarking Analytical Pipelines for Single-Cell Long-Read Sequencing in Colon Cancer" \\
+
+  2021---2022 & Advisor of masters student Simone Campagna, University of Rome Tor Vergata (Italy), "Machine learning to automatically detect the \textit{C. elegans} bodies from microscope images and measure their growth over time" \\
+
+  2021 & Supervisor of bachelors student Alessandro Pucci, University of Rome Tor Vergata (Italy), "Analysis of the effect of SARS-CoV-2 mutations on the pairing between the viral genome and human miRNAs" \\
+
+  2020---2021 & Supervisor of masters student Tiziano Tomarelli, University of Rome Tor Vergata (Italy), "Machine Learning methods applied to kinase-substrate interaction prediction" \\
+  
+  2020 & Supervisor of masters student Federico Spettich, University of Rome Tor Vergata (Italy), "Natural Language Processing techniques for protein encoding applied to phosphorylation prediction" \\
+
+  2020 & Supervisor of bachelors student Chiara Notturno, University of Rome Tor Vergata (Italy), "Analysis of repeated sequences in lincRNA candidates for exon shuffling" \\
+
+  2019---2020 & Supervisor of bachelors student Giada Sancamillo, University of Rome Tor Vergata (Italy), "Study of normalization techniques' effects in gene expression correlation analyses" \\
+
+
+\end{tabular}
+
+\subsection*{Travel grants and courses}
+
+\begin{tabular}{p{2cm}p{12.3cm}}  % column alignment r=right l=left c=center
+2025 & Graph Summit 2025, Okinawa, Japan~\href{https://github.com/dbcls/graphsummit/wiki/2025}{\ding{234}} \\
+2023 &  A multidisciplinary approach to epistasis detection, Lorentz Center, Leiden, Netherlands \\
+2022 & Student Travel Grant, \emph{International Genome Graph Symposium (IGGSy)}, Ascona, Switzerland~\href{https://andreaguarracino.github.io/other/IGGSy2022_StudentTravelGrant_AndreaGuarracino.jpg}{\ding{234}} \\
+2020 & Overcoming Challenges in Academic Writing: Tips for Writing Articles and Grant Applications, Enago academy, Virtual \\
+2018 & English Speaking Board (ESB) Level 1 (B2 CEFR), Pass with distinction~\href{https://andreaguarracino.github.io/certificates/EnglishCertificateESOL_B2_CEFR_AndreaGuarracino.pdf}{\ding{234}} \\
+2017 & Best practices for RNA-Seq data analysis - ELIXIR-IIB, University of Salerno, Italy~\href{https://andreaguarracino.github.io/certificates/ELIXIR_IIB_CertificateBestPracticesForRNAseqDataAnalysis_AndreaGuarracino.pdf}{\ding{234}} \\
+\end{tabular}
+
+\ifdef{\additional}{
+
+\subsection*{Teaching}
+
+% Need to add two actual (though invisible) contributions to accepted project proposals.
+
+\begin{tabular}{p{2cm}p{12.3cm}}  % column alignment r=right l=left c=center
+  
+  \textbf{Ongoing:} & \\
+
+  2026--- & Organizer, instructor and speaker, EMBO Practical Course Pangenomics (Torre del Greco, Naples, Italy)~\href{https://meetings.embo.org/event/26-pangenomics}{\ding{234}} \\
+
+  2023--- & Organizer, instructor and chair, MemPanG - Computational Pangenomics in Memphis~\href{https://pangenome.github.io/MemPanG24/}{\ding{234}} \\
+
+  2020--- & Teacher, Data Structures for Bioinformatics, Master’s degree in Bioinformatics, University of Rome Tor Vergata (Rome, Italy)~\href{https://github.com/AndreaGuarracino/DataStructuresForBioinformatics/}{\ding{234}} \\
+
+  \textbf{Past:} & \\
+
+  2026 & Computational Pangenomics, Instructor, Physalia-courses~\href{https://www.physalia-courses.org/courses-workshops/computational-pangenomics/}{\ding{234}} \\
+
+  2025 & HPRC 2025 Annual Meeting + Hackathon, Planning committee member and instructor (Memphis, USA)~\href{https://pangenome.github.io/HackPRC25/}{\ding{234}} \\
+
+  2025 & PhDSchool Hackathon on pangenomics, Instructor, FORGENOM II and PANGAIA~\href{https://algolab.github.io/forgenom_summerschool2025/}{\ding{234}} \\
+
+  2025 & Computational Pangenomics, Instructor, Physalia-courses~\href{https://www.physalia-courses.org/courses-workshops/computational-pangenomics/}{\ding{234}} \\
+
+  2025 & Building, understanding, and using pangenomes, Instructor, Human Genome Organization (HUGO) workshop (remote)~\href{https://andreaguarracino.github.io/other/20250311_HPRC_HUGO_2025_Workshop_AndreaGuarracino.pdf}{\ding{234}} \\
+
+  2023---2025 & Teacher, Advanced Bioinformatics: Data Mining and Data Integration for Life Science Master’s degree, Utrecht Bioinformatics Center (Utrecht, Netherlands)~\href{https://github.com/UMCUGenetics/AdvancedBioinformaticsCourse}{\ding{234}} \\
+
+  2024 & Organizer of ``Human genetic variability in the Pangenomic era'' symposium, Society for Molecular Biology \& Evolution 2024 (SMBE24) \\
+
+  2024 & Methods in genomic variant calling, Instructor, Human Technopole (Milan, Italy)~\href{https://github.com/HTGenomeAnalysisUnit/varcall_training/tree/main/2024/slides}{\ding{234}} \\
+
+  2024 & Computational Pangenomics, Organizer and instructor, AFI - Alta Formazione Insubria (Pozzolo, Italy)~\href{https://www.afinsubria.org/2024/07/09/computational-pangenomics/}{\ding{234}} \\
+  
+  2024 & Organizer and instructor, Computational Pangenomics, University of Rome La Sapienza (Rome, Italy)~\href{https://elixir-iib-training.github.io/site/2024-06-19-Pangenomics}{\ding{234}} \\
+  
+  2024 & Teacher, PhD Program in Genetics, Molecular and Cellular Biology, University of Pavia (Pavia, Italy; Virtual)~\href{https://andreaguarracino.github.io/certificates/UniPaviaPhDCoursePangenome2024_Flier_Apr18-19_2024_final_AndreaGuarracino.pdf}{\ding{234}} \\
+
+  2024 & Organizer and instructor, Human Pangenome BYOD Analysis Workshop by H3ABioNet (Cape Town, South Africa)~\href{https://elwazi.org/trainings/28}{\ding{234}} \\
+
+  2023 & Instructor, Pangenome \& RefGraph Workshop by H3ABioNet (Cape Town, South Africa)~\href{https://github.com/AndreaGuarracino/ReferenceGraphPangenomeDataAnalysisHackathon2023}{\ding{234}} \\
+
+  2023 & Organizer and instructor, Complex Trait Community \& Rat Genome CTC-RG2023 (Memphis, USA)~\href{https://complextrait.org/meetings/ctc-rg2023/program.html}{\ding{234}} \\
+
+  2022 & Instructor, CPANG22 Computational PANGenomics, Instituto Gulbenkian de Ciência (Oeiras, Portugal)~\href{https://gtpb.github.io/CPANG22/}{\ding{234}} \\
+
+\end{tabular}
+
+}
+
+
+\section*{References}
+
+\begin{tabular}{p{5cm}p{11cm}}  % column alignment r=right l=left c=center
+
+Erik Garrison
+  & Associate Professor \\
+  & Dept.\ Genetics, Genomics \& Informatics \\
+  & University of Tennessee Health Science Center \\
+  & 71 S Manassas, Memphis, TN, 38103, USA \\
+  & E-mail: egarris5@uthsc.edu \\
+  & \\
+Pjotr Prins
+  & Associate Professor \\
+  & Dept.\ Genetics, Genomics \& Informatics \\
+  & University of Tennessee Health Science Center \\
+  & 71 S Manassas, Memphis, TN, 38103, USA \\
+  & E-mail: jprins@uthsc.edu \\
+  & \\
+Manuela Helmer-Citterich
+  & Full Professor \\
+  & Dept.\ Molecular Biology \\
+  & University of Rome Tor Vergata, Italy \\
+  & Via della Ricerca Scientifica 1, Rome, 00133, Italy \\
+  & E-mail: citterich@uniroma2.it \\
+  & \\
+Ilio Vitale, Ph.D.
+  & Group Leader \\
+  & Italian Institute for Genomic Medicine \\
+  & Candiolo Cancer Institute, \\
+  & SP142, 95, 10060, Candiolo, Italy \\
+  & E-mail: iliovit@gmail.com \\
+  & \\
+\end{tabular}
+
+% \vspace{2cm} % Add some vertical space before the signature section
+
+% \noindent
+% \begin{minipage}[t]{0.45\textwidth}
+%     \raggedright
+%     Date\\[0.4cm]
+%     \today % This will print today's date
+%     % Or use a specific date like: July 9, 2025
+% \end{minipage}
+% \hfill
+% \begin{minipage}[t]{0.45\textwidth}
+%     \raggedleft
+%     Signature\\[-0.2cm]
+%     \includegraphics[height=1.5cm]{Andrea's Signature} % Adjust height as needed
+% \end{minipage}
+
+\end{document}

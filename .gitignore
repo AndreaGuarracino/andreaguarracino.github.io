@@ -1,1 +1,28 @@
+# Editor
 .idea/
+
+# LaTeX build artifacts under cv/ (regenerated on build)
+cv/**/*.aux
+cv/**/*.log
+cv/**/*.out
+cv/**/*.fls
+cv/**/*.fdb_latexmk
+cv/**/*.synctex.gz
+cv/**/*.bbl
+cv/**/*.blg
+cv/**/*.bcf
+cv/**/*.run.xml
+cv/cv-primary/texput.log
+
+# Compiled CV PDFs (regenerated on build)
+cv/cv-primary/cv_current.pdf
+cv/cv-overleaf/main.pdf
+
+# cv-generation Python cache + debug output
+cv/cv-generation/__pycache__/
+cv/cv-generation/*.pyc
+cv/cv-generation/pubs.debug.json
+cv/cv-generation/publications.adoc.preview
+
+# Private files
+private/
