@@ -726,6 +726,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | Assembly generation and manuscript writing
 | icon:book[] https://doi.org/10.1101/2025.09.21.677443[Paper]
 
+| Genome Biology, 2026
+| Genomic and cytogenetic evidence for divergence and speciation in geladas
+| Project guidance
+| icon:book[] https://doi.org/10.1186/s13059-026-04143-6[Paper]
+
 | Open Research Africa, 2025
 | Creating a biomedical knowledge base by addressing GPT inaccurate responses and benchmarking context
 | Testing, paper editing
