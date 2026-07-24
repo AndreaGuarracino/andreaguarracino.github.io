@@ -667,6 +667,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 ^| icon:link[] Links
 
 | bioRxiv, _Submitted_
+| HPRC2: A human pangenome reference with near-complete coverage of common genetic variation
+| Pangenome alignment, explicit and implicit pangenome graph building, subtelomeric interchromosomal rearrangements
+| icon:spinner[] https://doi.org/10.64898/2026.07.21.739710[Preprint]
+
+| bioRxiv, _Submitted_
 | Panomap: Unbiased Nanopore Signal Mapping with Pangenome Variation Graphs
 | Pangenomic support, paper editing
 | icon:spinner[] https://doi.org/10.64898/2026.07.10.737796[Preprint]
