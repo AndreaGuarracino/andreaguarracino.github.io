@@ -726,15 +726,15 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | Pangenomic support
 | icon:spinner[] https://doi.org/10.1101/2025.06.25.661508[Preprint]
 
-| Cell, _In press_
-| A complete diploid human genome benchmark for personalized genomics
-| Assembly generation and manuscript writing
-| icon:book[] https://doi.org/10.1101/2025.09.21.677443[Paper]
-
 | Genome Biology, 2026
 | Genomic and cytogenetic evidence for divergence and speciation in geladas
 | Project guidance
 | icon:book[] https://doi.org/10.1186/s13059-026-04143-6[Paper]
+
+| Cell, 2026
+| A complete diploid human genome benchmark for personalized genomics
+| Assembly generation and manuscript writing
+| icon:book[] https://doi.org/10.1016/j.cell.2026.06.016[Paper]
 
 | Open Research Africa, 2025
 | Creating a biomedical knowledge base by addressing GPT inaccurate responses and benchmarking context
