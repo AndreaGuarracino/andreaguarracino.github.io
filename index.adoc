@@ -712,11 +712,6 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | icon:spinner[] https://doi.org/10.64898/2026.02.16.706236[Preprint]
 
 | bioRxiv, _Submitted_
-| pass:[*]**Population-scalable genotyping from low-coverage sequencing data using pangenome graphs**
-| **Software development, evaluations, manuscript writing**
-| icon:spinner[] https://doi.org/10.64898/2026.02.05.704023[Preprint]
-
-| bioRxiv, _Submitted_
 | Origin and evolution of acrocentric chromosomes in human and great apes
 | Analysis and manuscript writing
 | icon:spinner[] https://doi.org/10.64898/2025.12.22.696095[Preprint]
@@ -725,6 +720,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | The reference-free pangenome of Arabidopsis thaliana
 | Pangenomic support
 | icon:spinner[] https://doi.org/10.1101/2025.06.25.661508[Preprint]
+
+| **Genome Biology, 2026**
+| pass:[*]**COSIGT: population-scalable genotyping of complex loci from low-coverage sequencing data using pangenome graphs**
+| **Software development, evaluations, manuscript writing**
+| icon:book[] https://doi.org/10.1186/s13059-026-04242-4[Paper]
 
 | Genome Biology, 2026
 | Genomic and cytogenetic evidence for divergence and speciation in geladas
