@@ -266,7 +266,6 @@ icon:linkedin[] {uri-linkedin}[Linkedin] |
 icon:google[] {uri-google-scholar}[Papers] |
 icon:registered[] {uri-research-gate}[ResearchGate] |
 icon:github[] {uri-github}[Code] |
-icon:skype[] https://join.skype.com/invite/f1KWmWUcDD9f[Skype] |
 icon:address-card[] {uri-orcid}[ORCID] |
 icon:comment[] https://matrix.to/#/@andreaguarracino:matrix.org[Chat]
 
