@@ -551,8 +551,18 @@ icon:file-pdf-o[] {uri-github-smbe24-symposia}[Symposia]
 ^| icon:book[] Thesis
 ^| icon:link[] Links
 
+| `4 May 2026 to Present` +
+| Doctoral committee member, PhD program, University of Tennessee Health Science Center (Memphis, USA)
+| Comparative and conservation analysis across 581 vertebrate genomes
+| -
+
+| `3 Mar. 2026 to Present` +
+| External doctoral committee member, PhD program, Graduate School of the Stowers Institute for Medical Research (Kansas City, USA)
+| -
+| -
+
 | `1 Oct. 2023 to Present` +
-| PhD program in Systems Medicine, Computational Biology curricula, {university-semm} (Italy)
+| External advisor, PhD program in Systems Medicine, Computational Biology curricula, {university-semm} (Italy)
 | Dissecting the intracellular response to replication and mitotic stress in colorectal cancer for the design of novel effective (immuno)therapies
 | -
 
