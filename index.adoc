@@ -143,6 +143,7 @@
 :uri-sigu-ring14-2025-program: https://github.com/AndreaGuarracino/cv/blob/main/other/20250926_RingChromosome14_Program_AndreaGuarracino.pdf
 :uri-seminar-brochure-santanna-2026: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260619_SeminarBrochureSantAnnaPisa_AndreaGuarracino.pdf
 :uri-seminar-brochure-icdg-2026: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20260527_SeminarBrochureICDGBucharest_AndreaGuarracino.png
+:uri-seminar-brochure-ceminar-asu-2026: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/other/20261008_SeminarBrochureCEMinarASU_AndreaGuarracino.pdf
 :uri-hprc2025-qa-video: https://www.youtube.com/watch?v=bJ7wkbwd5oU
 
 // Universities, institutes
@@ -165,6 +166,8 @@
 :scuola-superiore-santanna: {uri-scuola-superiore-santanna}[Scuola Superiore Sant'Anna]
 :uri-icdg: https://genomica.gov.ro
 :icdg: {uri-icdg}[Institute for Research and Development in Genomics]
+:uri-asu-cem: https://evmed.asu.edu/
+:asu-cem: {uri-asu-cem}[Center for Evolution and Medicine, Arizona State University]
 
 // Publications
 :uri-pietrosanto-adinolfi-guarracino2021-rig: https://doi.org/10.1093/nargab/lqab007
@@ -373,7 +376,7 @@ icon:battery-full[] Evaluation: 110/110 cum laude; GPA: 4.00, A+.
 ^| icon:pencil[] Role
 ^| icon:link[] Links
 
-| `7 June 2026 to Present` +
+| `7 June 2026 to 13 June 2026` +
 | EMBO Practical Course Pangenomics, (Torre del Greco, Naples, Italy)
 | *Organizer*, *instructor*, and *speaker*, created new material, held lessons, assisted the participants
 | icon:github[] {uri-github-embo2026-pangenomics-website}[Website]
@@ -612,6 +615,11 @@ icon:file-pdf-o[] {uri-github-smbe24-symposia}[Symposia]
 ^| icon:globe[] Place
 ^| icon:book[] Description
 ^| icon:link[] Links
+
+| `8 Oct. 2026` +
+| {asu-cem} (Tempe, USA)
+| Seminar on "Do we still need pangenome graphs?" (CEMinar)
+| icon:file-pdf-o[] {uri-seminar-brochure-ceminar-asu-2026}[Brochure]
 
 | `19 June 2026` +
 | {scuola-superiore-santanna} (Pisa, Italy)
