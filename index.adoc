@@ -985,6 +985,12 @@ icon:university[] *Previous software development for pangenomics*.
 ^| icon:money[] Amount
 ^| icon:link[] Links
 
+| `1 Oct. 2026 to 31 Oct. 2027` +
+| {tgen}
+| Sylvia Chase Early Career Training Program (PI), _Resolving the hidden alleles on prostate cancer risk haplotypes_
+| -
+| icon:link[] {uri-lab}[Lab website]
+
 | `5 July 2022` +
 | {uri-iggsy}[International Genome Graph Symposium 2022]
 | Student Travel Grant
