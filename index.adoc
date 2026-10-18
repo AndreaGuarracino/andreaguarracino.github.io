@@ -275,7 +275,7 @@ icon:comment[] https://matrix.to/#/@andreaguarracino:matrix.org[Chat]
 == icon:black-tie[] Current position
 
 icon:calendar[] `5 Jan. 2026 to Present` +
-icon:university[] *Assistant Professor at the {tgen}* (Phoenix, USA).
+icon:university[] *Assistant Professor at the {tgen}* (Phoenix, USA), {uri-lab}[Guarracino Lab].
 
 * Cancer pangenomics
 
