@@ -35,13 +35,10 @@ BIB_DIR = CV_ROOT / "cv-overleaf"
 JOURNAL_BIB = BIB_DIR / "journal.bib"
 CONFERENCE_BIB = BIB_DIR / "conference.bib"
 
-# Journals that get high-impact emphasis in the primary CV (\hijournal).
-# The .bib ALSO encodes emphasis by wrapping the journal name in \textbf{...};
-# we treat either signal as high-impact.
+# High-impact: JIF 2025 >= 20.
+# Bold the same journals in journal.bib.
 HIGH_IMPACT_JOURNALS: set[str] = {
-    "Nature", "Nature Methods", "Nature Immunology", "Nature Biotechnology",
-    "Nature Genetics", "Nature Communications", "Cell", "Cell Systems",
-    "Cell Genomics", "Science",
+    "Nature", "Nature Methods", "Nature Immunology", "Cell", "Science",
 }
 
 PREPRINT_PUBLISHERS: set[str] = {"openrxiv", "biorxiv", "medrxiv", "arxiv", "research square"}
@@ -206,10 +203,10 @@ def parse_venue(entry: dict, status: str) -> tuple[str, bool, str]:
     """Return (display_venue, high_impact, publisher_clean)."""
     journal_raw = _raw_field(entry, "journal")
     publisher = clean_field(entry, "publisher")
-    # high-impact if the .bib bolded the journal, or it's in our set
-    bolded = "\\textbf" in journal_raw
     journal = strip_latex(journal_raw)
-    high = bolded or journal in HIGH_IMPACT_JOURNALS
+    high = journal in HIGH_IMPACT_JOURNALS
+    if ("\\textbf" in journal_raw) != high:
+        logger.warning("bold/high-impact mismatch: %s", journal)
     if journal:
         return journal, high, publisher
     # preprint / no journal: fall back to publisher
