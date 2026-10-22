@@ -45,7 +45,7 @@ See `cv/README.md` for the quick workflow. It replaced the old `pubmedSearch2tex
 
 `.bib` conventions the generators rely on: `\textbf{Andrea Guarracino}` (bold marks him); a trailing
 `*` on his name = **(co-)first author**, `**` = **last/senior author** (this drives the "first or last"
-count); a matching `*` inside the `year` field (e.g. `year = {2024*}`) is an **intentional visible marker**
+count); a matching `*` inside the `year` field (e.g. `year = {2024*}`) (or `**` for last, e.g. `{2022**}`) is an **intentional visible marker** in the second CV, required on every first/last-author entry
 — keep it; `year = {Submitted}`/`{In press}`/`{YYYY}` for status; `\textbf{Journal}` for high-impact
 emphasis (only JIF 2025 >= 20 journals, the `HIGH_IMPACT_JOURNALS` set in `parse_bib.py`; the parser warns on a mismatch); `note = {... Contribution: ...}` for the website's contribution column; and optional
 `cvlinks = {Webserver=URL; Repository=URL}` for extra links.
