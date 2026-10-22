@@ -125,6 +125,8 @@
 
 // Misc
 :uri-hprc: https://humanpangenome.org/
+:uri-t2t: https://sites.google.com/ucsc.edu/t2tworkinggroup
+:uri-1kgp-lrsc: https://millerlaboratory.com/1KGP-LRS.html
 :uri-hprc-collection: https://www.nature.com/collections/aebdjihcda
 :uri-deciphering-complexity-neudeg-and-cacer-poster: https://github.com/AndreaGuarracino/andreaguarracino.github.io/blob/main/achievements/PhDWorkshop_DecipheringTheComplexityInNeurodegenAndCancer_Poster_AndreaGuarracino.pdf
 :uri-google-summer-of-code: https://summerofcode.withgoogle.com/
@@ -1246,6 +1248,16 @@ icon:link[] {uri-best-practices-RNA-seq-repository}[Repository]
 ^| icon:globe[] Info
 ^| icon:book[] What
 ^| icon:link[] Links
+
+| `5 Mar. 2024 to Present` +
+| {uri-1kgp-lrsc}[1000 Genomes Project Long-read Sequencing Consortium]
+| Member of the *1000 Genomes Project Long-read Sequencing Consortium*
+| icon:link[] {uri-1kgp-lrsc}[Website]
+
+| `20 Oct. 2020 to Present` +
+| {uri-t2t}[Telomere-to-Telomere Consortium]
+| Member of the *Telomere-to-Telomere (T2T) Consortium*
+| icon:link[] {uri-t2t}[Website]
 
 | `20 Oct. 2020 to Present` +
 | {uri-hprc}[Human Pangenome Reference Consortium]
