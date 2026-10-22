@@ -556,6 +556,11 @@ icon:file-pdf-o[] {uri-github-smbe24-symposia}[Symposia]
 ^| icon:book[] Thesis
 ^| icon:link[] Links
 
+| `Sept. 2026 to Present` +
+| Postdoctoral supervisor, {tgen} (Phoenix, USA)
+| -
+| -
+
 | `4 May 2026 to Present` +
 | Doctoral committee member, PhD program, University of Tennessee Health Science Center (Memphis, USA)
 | Comparative and conservation analysis across 581 vertebrate genomes
@@ -890,9 +895,9 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 | paper editing, pangenome graph creation, pangenome visualization, population genetic analysis
 | icon:book[] https://doi.org/10.1038/s41586-023-05896-x[Paper]
 
-| Bioinformatics, 2022
-| Unbiased pangenome graphs
-| Bottleneck parallelization, bug fixings, experiments in multiple species
+| **Bioinformatics, 2022**
+| pass:[**]**Unbiased pangenome graphs**
+| **Bottleneck parallelization, bug fixings, experiments in multiple species**
 | icon:book[] https://doi.org/10.1093/bioinformatics/btac743[Paper]
 
 | **Bioinformatics, 2022**
