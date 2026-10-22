@@ -12,7 +12,7 @@ Three formats, one shared publication list.
 2. Run `bash cv-generation/build.sh`   (`--no-network` skips the PubMed lookup)
 
 That regenerates the main CV (`cv-primary/cv_current.pdf`) and the website's
-publications table. Rebuild the Overleaf PDF in Overleaf.
+publications table, and compiles `cv-overleaf/main.pdf`. Overleaf is no longer used.
 
 Everything else (positions, teaching, talks) is hand-edited in each CV.
 

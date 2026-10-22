@@ -72,9 +72,7 @@ The site is public and git tracks the `cv/` `.tex`/`.bib` sources too (Jekyll on
 
 ```bash
 # one-time deps: texlive-full, bibtexparser + matplotlib (pip), asciidoctor, ruby
-bash cv/cv-generation/build.sh          # everything except the Overleaf PDF
-# Overleaf CV:
-cd cv/cv-overleaf && pdflatex main && bibtex journal && bibtex conference && pdflatex main && pdflatex main
+bash cv/cv-generation/build.sh          # everything, both CV PDFs included (Overleaf is no longer used)
 # website only:
 asciidoctor -a docinfo=shared index.adoc
 ```
