@@ -691,6 +691,11 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 ^| icon:link[] Links
 
 | bioRxiv, _Submitted_
+| pass:[**]**Somatic variant detection using an individual-specific pangenome reference: a case study of a pediatric acute myeloid leukemia patient**
+| **Study conception and design, joint supervision, data interpretation, manuscript writing**
+| icon:spinner[] https://doi.org/10.64898/2026.10.27.756267[Preprint]
+
+| bioRxiv, _Submitted_
 | HPRC2: A human pangenome reference with near-complete coverage of common genetic variation
 | Pangenome alignment, explicit and implicit pangenome graph building, subtelomeric interchromosomal rearrangements
 | icon:spinner[] https://doi.org/10.64898/2026.07.21.739710[Preprint]
