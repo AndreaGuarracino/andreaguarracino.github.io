@@ -691,6 +691,12 @@ pass:[*]_first authorship_, pass:[**]_last authorship/corresponding_
 ^| icon:link[] Links
 
 | bioRxiv, _Submitted_
+| pass:[**]**Measuring satellite arrays of the human Y chromosome from sequencing reads**
+| **Study conception and design, method implementation, validations, data analysis, figures, manuscript writing**
+| icon:spinner[] https://doi.org/10.64898/2026.11.04.764422[Preprint] +
+icon:github[] https://github.com/guarracinolab/yruler[Repository]
+
+| bioRxiv, _Submitted_
 | pass:[**]**Somatic variant detection using an individual-specific pangenome reference: a case study of a pediatric acute myeloid leukemia patient**
 | **Study conception and design, joint supervision, data interpretation, manuscript writing**
 | icon:spinner[] https://doi.org/10.64898/2026.10.27.756267[Preprint]
